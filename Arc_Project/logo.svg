@@ -1,0 +1,15 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+	<title>New Project</title>
+	<style>
+		.s0 { fill: #ffffff } 
+		.s1 { fill: #e6e6e6 } 
+	</style>
+	<g id="Folder 2">
+		<g id="Folder 1">
+			<path id="Shape 1" class="s0" d="m8 6.5l-4.1-2.3v2l4.1 2.2v2.3l-6-3.4v-6.3l6 3.2z"/>
+			<path id="Shape 2" class="s1" d="m14 1v6.6l-2-1v-2.4l-4 2.3v-2.3z"/>
+			<path id="Shape 3" class="s1" d="m9.9 7.4l3.9 2.2v2l-5.8 3.3v-2.1l3.7-2.1-1.8-1.1-1.9 1v-2.2z"/>
+			<path id="Shape 4" class="s0" d="m8 12.8v2.1l-6-3.3v-2.1z"/>
+		</g>
+	</g>
+</svg>

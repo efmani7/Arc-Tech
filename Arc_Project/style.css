@@ -1,0 +1,1772 @@
+
+/* FONT IMPORT*/
+
+@import url('http://fonts.cdnfonts.com/css/sf-pro-display');
+@import url(//db.onlinewebfonts.com/c/03fe5644d1605049951f58ca7961c33f?family=Samsung+Sharp+Sans+Bold);
+
+                        /*PAGE CSS*/
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body{
+    background-color: #fbfbfd;
+    font-family: 'SF Pro Display', sans-serif;
+}
+
+li, a, button{
+  font-family: 'SF Pro Display', sans-serif;
+  font-size:14px;
+  text-decoration: none;
+}
+            /*NAV BAR STYLING*/
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:0;
+  margin: 0;
+  position: fixed;
+  width: 100%;
+
+}
+
+
+nav{
+  width: 100%;
+  height: 50px;
+  background-color: #2f2f2f;
+  align: center;
+
+
+}
+
+nav ul {
+    margin-left: 10%;
+
+}
+
+nav ul li{
+
+  list-style: none;
+  float:left;
+  display: inline-block;
+  font-size:12px;
+  line-height:60px;
+  padding-top:0;
+  position: relative;
+}
+
+nav ul li a{
+    display:block;
+    text-decoration: none;
+    color:#9e9e9e;
+    padding:0 20px;
+
+
+}
+
+nav ul li a:hover{
+    color:#fff;
+}
+
+ .menu button {
+   width:50px;
+   height:30px;
+   border-radius:5px;
+   cursor: pointer;
+   float: right;
+   margin-right: 10%;
+   margin-top:10px;
+   border:2px solid #202020;
+   color:#9e9e9e;
+   background-color: rgba(47, 47, 47, 1);
+
+}
+
+.menu button:hover {
+  color:#fff;
+}
+
+              /*END OF NAV BAR STYLING*/
+
+/*START OF HOME PAGE STYLING*/
+
+div .main, p{
+  width:100%;
+  font-size: 30px;
+  color:#202020;
+  line-height: 35px;
+  text-align: center;
+
+}
+
+
+div .main, h1{
+  text-align: center;
+  font-size: 50px;
+  color:#202020;
+}
+
+ .learnmore {
+  text-align: center;
+  font-size: 25px;
+
+}
+
+.learnmore:hover{
+    text-decoration: underline;
+}
+
+div .advert{
+  align-items:center;
+  text-align: center;
+  width: 35%;
+  height:33%;
+  margin-left: 32%;
+}
+
+div .advert img{
+  width:100%;
+  height:100%;
+  object-fit: cover;
+  align-content: center;
+
+}
+
+
+div .adful{
+  width:100%;
+  height:10%;
+  background-color:#000;
+}
+
+div .adful img{
+  object-fit: cover;
+  width:70%;
+  height:100%;
+
+}
+
+div .text img{
+  margin-left: 3%;
+  margin-top: 18%;
+}
+
+figure .textover{
+
+}
+
+ .textover figcaption a{
+  top:0;
+  bottom: 0;
+  font-size: 2em;
+  box-sizing: border-box;
+  width: 10%;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+  margin-left:40%;
+
+
+}
+
+.textover figcaption a:hover{
+  color:#9f9f9f;
+  text-decoration: underline;
+}
+
+div .endimg{
+  width:100%;
+  height:50%;
+  background-color:#f4f4f4;
+}
+
+div .endimg img{
+  object-fit: cover;
+  width:90%;
+  height:100%;
+  margin-left: 6%;
+}
+
+ .textoverend figcaption a{
+  top:0;
+  bottom: 0;
+  font-size: 2em;
+  box-sizing: border-box;
+  width: 10%;
+  padding: 10px;
+  text-align: center;
+  color: #202020;
+  margin-left:42%;
+}
+
+.textoverend figcaption a:hover{
+  color:#000;
+  text-decoration: underline;
+}
+
+div .defaultmain{
+  width:100%;
+  font-size: 30px;
+  color:#202020;
+  line-height: 35px;
+  text-align: justify;
+
+}
+
+
+
+.defaultmain ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.defaultmain ul li{
+    float:left;
+    list-style: none;
+    width:32%;
+    height:auto;
+    margin-left: 12%;
+    margin-bottom:5%;
+    margin-top: 5%;
+    box-sizing: border-box;
+
+}
+.defaultmain ul li img{
+
+  margin-top: 5%;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.defaultmain ul li .productad{
+    width: 100%;
+    height:auto;
+    line-height: 50px;
+    text-align: center;
+    color:#202020;
+    font-size: 20px;
+
+}
+
+.defaultmain ul li .productad a{
+  font-size:1.5em;
+}
+
+
+.defaultmain ul li .productad a:hover{
+  color:#202020;
+  text-decoration: underline;
+}
+
+/*END OF HOME PAGE STYLING*/
+
+
+/*START OF PRODUCTS PAGE STYLING*/
+
+div .productscard img{
+  width: 80%;
+  height: auto;
+  object-fit: cover;
+  border-top-left-radius: 20px ;
+  border-top-right-radius: 20px;
+}
+
+.productsbody ul li .productscard{
+    float: left;
+    width: 25%;
+    margin-left: 6.5%;
+    margin-bottom:8%;
+    height:auto;
+    line-height: 50px;
+    text-align: center;
+    color:#202020;
+    font-size: 20px;
+    box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.5);
+    border-radius: 20px;
+    overflow:hidden;
+    text-overflow: ellipsis;
+}
+
+.productsbody ul li .productscard h1{
+  font-size: 1.09em;
+}
+
+div .productscard p{
+ font-size:0.8em;
+ text-align: center;
+}
+
+.productsbody ul li .productscard .price p{
+  font-size: 22px;
+  line-height:2.5em;
+  margin-top: 4%;
+}
+
+
+.productscard:hover{
+  transform: scale(1.1);
+  transition:1s;
+}
+
+.productsbody ul li .productscard a{
+  font-size:1.5em;
+}
+
+
+.productsbody ul li .productscard a:hover{
+  color:#202020;
+}
+/*END OF PRODUCTS PAGE STYLING*/
+
+
+/*START OF IPHONE PAGE STYLING*/
+
+.ihead h1{
+  font-size: 4em;
+  margin-bottom:8%;
+}
+
+div .openingphoneimg {
+  width: 100%;
+  height: auto;
+}
+
+.openingphoneimg img{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 7%;
+}
+
+div .bodyforphones{
+  width: 80%;
+  height: auto;
+}
+
+.bodyforphones .itabtopl{
+  width: 35%;
+  height: auto;
+  margin-left: 2%;
+  background-color: #f6f6f8;
+  float: left;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.3);
+}
+
+.bodyforphones .itabtopr{
+  width: 25%;
+  height:auto;
+  margin-right:18%;
+  background-color: #f6f6f8;
+  float: right;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.3);
+}
+
+.bodyforphones .itabtopr h1{
+  float: left;
+  margin-top: 5%;
+  margin-left:2%;
+  font-size:2.5em;
+}
+.bodyforphones .itabtoprtext{
+width:50%;
+height: auto;
+margin-left:3%;
+}
+
+.bodyforphones .itabtopltext{
+width:20%;
+height: auto;
+margin-left:1%;
+text-align: left;
+
+}
+
+.bodyforphones .itabtopl h1{
+  float: left;
+  margin-top: 5%;
+  margin-bottom:5%;
+  margin-left: 5%;
+  font-size: 2.2em;
+  text-align: left;
+}
+
+.bodyforphones .itabbottomr h1{
+  float: left;
+  margin-top: 5%;
+  margin-left: 5%;
+  text-align: justify;
+  font-size: 2em;
+}
+
+div .camtext{
+  width: 70%;
+  margin-left:-1.5%;
+}
+
+.bodyforphones .itabbottoml{
+  width: 35%;
+  height: auto;
+  margin-left: 19%;
+  margin-top:1%;
+  background-color: ##f6f6f8;
+  float: left;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.3);
+}
+
+.bodyforphones .itabbottomr{
+  width: 63%;
+  height: auto;
+  margin-left:19%;
+  margin-top: 1%;
+  background-color: #f6f6f8;
+  float:left;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.3);
+}
+
+.bodyforphones .itabtopl img{
+  width:66%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 25px;
+  float: right;
+  margin-top:-25%;
+}
+
+.bodyforphones .itabtopr img{
+  width:25%;
+  height:auto;
+  object-fit: cover;
+  float: right;
+  border-radius: 25px;
+  margin-top:-18%;
+  margin-right: 10%;
+}
+
+.bodyforphones .itabbottoml img{
+  width:100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.bodyforphones .itabbottomr img{
+  width:30%;
+  height:auto;
+  object-fit: cover;
+  border-top-right-radius:20px;
+  border-bottom-right-radius: 20px;
+  float: right;
+}
+
+
+ .btngroup{
+  float: left;
+  margin-left:13%;
+  margin-top: 5%;
+  margin-right:2%;
+  width: 30px;
+}
+.btngroup #buttongreen{
+  background-color:#394c38;
+  border:3px solid white;
+  width:40px;
+  height:40px;
+  border-radius: 100%;
+  display: block;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.45);
+}
+
+#buttongreen:hover{
+  transform: scale(1.1);
+  transition:0.5s;
+  cursor: pointer;
+}
+
+.btngroup #buttonblue{
+  background-color:#276787;
+  border:3px solid white;
+  width:40px;
+  height: 40px;
+  border-radius: 100%;
+  display: block;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.45);
+}
+
+#buttonblue:hover{
+  transform: scale(1.1);
+  transition:0.5s;
+  cursor: pointer;
+}
+
+.btngroup #buttonred{
+  background-color:#bf0013;
+  border:3px solid white;
+  width:40px;
+  height: 40px;
+  border-radius: 100%;
+  display: block;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.45);
+}
+
+#buttonred:hover{
+  transform: scale(1.1);
+  transition:0.5s;
+  cursor: pointer;
+}
+
+.btngroup #buttonpink{
+  background-color:#faddd7;
+  border:3px solid white;
+  width:40px;
+  height:40px;
+  border-radius: 100%;
+  display: block;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.45);
+}
+
+#buttonpink:hover{
+  transform: scale(1.1);
+  transition:0.5s;
+  cursor: pointer;
+}
+.btngroup #buttonwhite{
+  background-color: white;
+  border:3px solid #dddada;
+  width:40px;
+  height: 40px;
+  border-radius: 100%;
+  display: block;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.45);
+}
+
+#buttonwhite:hover{
+  transform: scale(1.1);
+  transition:0.5s;
+  cursor: pointer;
+}
+
+.btngroup #buttonblack{
+  background-color:#232a31;
+  border:3px solid white;
+  width:40px;
+  height: 40px;
+  border-radius: 100%;
+  display: block;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.45);
+}
+
+#buttonblack:hover{
+  transform: scale(1.1);
+  transition:0.5s;
+  cursor: pointer;
+}
+
+/* SPECS*/
+.specs13{
+  width: 90%;
+  height: auto;
+  margin-top:68%;
+  margin-left: 5%;
+  margin-bottom:2%;
+  border-radius: 20px;
+  background-color:#f6f6f8;
+  box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.3);
+}
+
+.bodyforphones .specs13 img{
+  width: 10%;
+  height: auto;
+  object-fit: cover;
+  margin-top:4%;
+  margin-bottom:4%;
+  margin-left: 2%;
+}
+
+.specs13 h1{
+  font-size: 1.5em;
+  margin-left:-40%;
+  margin-right: 5%;
+  margin-bottom: -4%;
+}
+
+.mainpics{
+margin-bottom: -70%;
+}
+.mainpics img{
+  width: 100%;
+  height: auto;
+
+}
+/*13 PRO*/
+.bodyforphones .itabtoplpro{
+  width: 35%;
+  height: auto;
+  margin-left: 2%;
+  background-color: #f6f6f8;
+  float: left;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.3);
+}
+
+.bodyforphones .itabtoprpro{
+  width: 25%;
+  height:auto;
+  margin-right:18%;
+  background-color: #f6f6f8;
+  float: right;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.3);
+}
+
+.bodyforphones .itabtoprpro h1{
+  float: left;
+  margin-top: 5%;
+  margin-left:2%;
+  font-size:2em;
+}
+
+.bodyforphones .itabtoplpro h1{
+  float: left;
+  margin-top: 5%;
+  margin-bottom:5%;
+  margin-left: 5%;
+  font-size: 2.2em;
+  text-align: left;
+}
+
+.bodyforphones .itabbottomrpro h1{
+  float: left;
+  margin-top: 5%;
+  margin-left: 5%;
+  text-align: justify;
+  font-size: 2em;
+}
+
+div .camtext{
+  width: 70%;
+  margin-left:-1.5%;
+}
+
+.bodyforphones .itabbottomlpro{
+  width: 35%;
+  height: auto;
+  margin-left: 19%;
+  margin-top: 3.5%;
+  background-color: ##f6f6f8;
+  float: left;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.3);
+}
+
+.bodyforphones .itabbottomrpro{
+  width: 63%;
+  height: auto;
+  margin-left:19%;
+  margin-top: 1%;
+  background-color: #f6f6f8;
+  float:left;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.3);
+}
+
+.bodyforphones .itabtoplprotxt{
+  width:20%;
+  height: auto;
+  text-align: left;
+  margin-left: 3%;
+}
+
+.bodyforphones .itabtoprprotxt{
+  width: 40%;
+  height: auto;
+  text-align:left;
+  margin-left:3%;
+  float: left;
+}
+
+
+.bodyforphones .itabtoplpro img{
+  width:100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 25px;
+  float: right;
+  margin-top:-55%;
+  margin-right:-15%;
+}
+
+.bodyforphones .itabtoprpro img{
+  width:25%;
+  height:auto;
+  object-fit: cover;
+  float: right;
+  border-radius: 10px;
+  margin-top:5%;
+  margin-right: 10%;
+  margin-bottom:70%;
+}
+
+.bodyforphones .toprendimg{
+  text-align: center;
+  width: 100%;
+  height: auto;
+  margin-left: 10%;
+}
+
+.bodyforphones .toprendimg img{
+  width:100%;
+  height:auto;
+  margin-top: -55%;
+  margin-bottom:-0%;
+  border-top-left-radius:0px;
+  border-top-right-radius:0px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  object-fit: cover;
+
+}
+
+.bodyforphones .itabbottomlpro img{
+  width:100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.bodyforphones .itabbottomrpro img{
+  width:30%;
+  height:auto;
+  object-fit: cover;
+  border-top-right-radius:20px;
+  border-bottom-right-radius: 20px;
+  float: right;
+}
+
+.btngroup #buttongreenpro{
+  background-color:#4d5e4c;
+  border:3px solid white;
+  width:40px;
+  height:40px;
+  border-radius: 100%;
+  display: block;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.45);
+}
+
+#buttongreenpro:hover{
+  transform: scale(1.1);
+  transition:0.5s;
+  cursor: pointer;
+}
+
+.btngroup #buttonbluepro{
+  background-color:#9bb9d4;
+  border:3px solid white;
+  width:40px;
+  height: 40px;
+  border-radius: 100%;
+  display: block;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.45);
+}
+
+#buttonbluepro:hover{
+  transform: scale(1.1);
+  transition:0.5s;
+  cursor: pointer;
+}
+
+.btngroup #buttongoldpro{
+  background-color:#fbe4c9;
+  border:3px solid white;
+  width:40px;
+  height: 40px;
+  border-radius: 100%;
+  display: block;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.45);
+}
+
+#buttongoldpro:hover{
+  transform: scale(1.1);
+  transition:0.5s;
+  cursor: pointer;
+}
+
+.btngroup #buttonwhitepro{
+  background-color:#eff0ea;
+  border:3px solid white;
+  width:40px;
+  height:40px;
+  border-radius: 100%;
+  display: block;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.45);
+}
+
+#buttonwhitepro:hover{
+  transform: scale(1.1);
+  transition:0.5s;
+  cursor: pointer;
+}
+
+.btngroup #buttonblackpro{
+  background-color:#4a4846;
+  border:3px solid white;
+  width:40px;
+  height: 40px;
+  border-radius: 100%;
+  display: block;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.45);
+}
+
+#buttonblackpro:hover{
+  transform: scale(1.1);
+  transition:0.5s;
+  cursor: pointer;
+}
+.specs13pro{
+  width: 90%;
+  height: auto;
+  margin-top:75%;
+  margin-left: 5%;
+  margin-bottom:2%;
+  border-radius: 20px;
+  background-color:#f6f6f8;
+  box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.3);
+}
+
+.bodyforphones .specs13pro img{
+  width: 10%;
+  height: auto;
+  object-fit: cover;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  margin-left: 2%;
+}
+
+.specs13pro h1{
+  font-size: 1.5em;
+  margin-left:-40%;
+  margin-right: 5%;
+  margin-top: 4%;
+    margin-bottom: -4%;
+}
+
+/*END OF iPHONE PAGE STYLING*/
+
+
+
+
+
+
+
+/* START OF SAMSUNG PHONES STYLING*/
+
+.bodyforphones .itabtopls22{
+  width: 35%;
+  height: auto;
+  margin-left: 2%;
+  background-color: #f6f6f8;
+  float: left;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.3);
+}
+
+.bodyforphones .itabtoprs22{
+  width: 25%;
+  height:auto;
+  margin-right:18%;
+  background-color: #f6f6f8;
+  float: right;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.3);
+}
+
+.bodyforphones .itabtoprs22 h1{
+  float: left;
+  margin-top: 5%;
+  margin-left:2%;
+  font-size:2.5em;
+}
+.bodyforphones .itabtoprtexts22{
+width:50%;
+height: auto;
+margin-left:3%;
+}
+
+.bodyforphones .itabtopltexts22{
+width:20%;
+height: auto;
+margin-left:1%;
+text-align: left;
+
+}
+
+.bodyforphones .itabtopls22 h1{
+  float: left;
+  margin-top: 5%;
+  margin-bottom:5%;
+  margin-left: 5%;
+  font-size: 2.2em;
+  text-align: left;
+}
+
+.bodyforphones .itabbottomrs22 h1{
+  float: left;
+  margin-top: 5%;
+  margin-left: 5%;
+  text-align: justify;
+  font-size: 2em;
+}
+
+div .camtexts22{
+  width: 70%;
+  margin-left:-1.5%;
+}
+
+.bodyforphones .itabbottomls22{
+  width: 35%;
+  height: auto;
+  margin-left: 19%;
+  margin-top:1%;
+  background-color: ##f6f6f8;
+  float: left;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.3);
+}
+
+.bodyforphones .itabbottomrs22{
+  width: 63%;
+  height: auto;
+  margin-left:19%;
+  margin-top: 1%;
+  background-color: #f6f6f8;
+  float:left;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.3);
+}
+
+.bodyforphones .itabtopls22 img{
+  width:45%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 25px;
+  float: right;
+  margin-top:-15%;
+}
+
+.bodyforphones .itabtoprs22 img{
+  width:60%;
+  height:auto;
+  object-fit: cover;
+  float: right;
+  border-radius: 25px;
+  margin-top:-18%;
+  margin-right:5%;
+}
+
+.bodyforphones .itabbottomls22 img{
+  width:100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.bodyforphones .itabbottomrs22 img{
+  width:30%;
+  height:auto;
+  object-fit: cover;
+  border-top-right-radius:20px;
+  border-bottom-right-radius: 20px;
+  float: right;
+}
+
+
+ .btngroup{
+  float: left;
+  margin-left:13%;
+  margin-top: 5%;
+  margin-right:2%;
+  width: 30px;
+}
+.btngroup #buttongreens22{
+  background-color:#394c38;
+  border:3px solid white;
+  width:40px;
+  height:40px;
+  border-radius: 100%;
+  display: block;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.45);
+}
+
+#buttongreens22:hover{
+  transform: scale(1.1);
+  transition:0.5s;
+  cursor: pointer;
+}
+
+.btngroup #buttonblues22{
+  background-color:#276787;
+  border:3px solid white;
+  width:40px;
+  height: 40px;
+  border-radius: 100%;
+  display: block;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.45);
+}
+
+#buttonblues22:hover{
+  transform: scale(1.1);
+  transition:0.5s;
+  cursor: pointer;
+}
+
+
+.btngroup #buttonpinks22{
+  background-color:#faddd7;
+  border:3px solid white;
+  width:40px;
+  height:40px;
+  border-radius: 100%;
+  display: block;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.45);
+}
+
+#buttonpinks22:hover{
+  transform: scale(1.1);
+  transition:0.5s;
+  cursor: pointer;
+}
+.btngroup #buttonwhites22{
+  background-color: white;
+  border:3px solid #dddada;
+  width:40px;
+  height: 40px;
+  border-radius: 100%;
+  display: block;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.45);
+}
+
+#buttonwhites22:hover{
+  transform: scale(1.1);
+  transition:0.5s;
+  cursor: pointer;
+}
+
+.btngroup #buttonblacks22{
+  background-color:#232a31;
+  border:3px solid white;
+  width:40px;
+  height: 40px;
+  border-radius: 100%;
+  display: block;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.45);
+}
+
+#buttonblacks22:hover{
+  transform: scale(1.1);
+  transition:0.5s;
+  cursor: pointer;
+}
+
+/* SPECS*/
+.specs13s22{
+  width: 90%;
+  height: auto;
+  margin-top:48%;
+  margin-left: 5%;
+  margin-bottom:5%;
+  border-radius: 20px;
+  background-color:#fcfcfc;
+  box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.3);
+}
+
+.bodyforphones .specs13s22 img{
+  width: 10%;
+  height: auto;
+  object-fit: cover;
+  margin-top:4%;
+  margin-bottom:4%;
+  margin-left: 2%;
+}
+
+.bodyforphones .specs13s22 .vidwrapper{
+  width:25%;
+}
+
+.bodyforphones .specs13s22 video{
+  width: 150%;
+  height: auto;
+  object-fit: cover;
+  margin-top:4%;
+  margin-bottom:4%;
+}
+
+.specs13s22 h1{
+  font-size: 1.5em;
+  margin-bottom:-4%;
+}
+
+.mainpics{
+margin-bottom: -70%;
+}
+.mainpics img{
+  width: 100%;
+  height: auto;
+
+}
+/*ULTRA*/
+
+
+.bodyforphones .itabtopls22ultra{
+  width: 35%;
+  height: auto;
+  margin-left: 2%;
+  background-color: #f6f6f8;
+  float: left;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.3);
+}
+
+.bodyforphones .itabtoprs22ultra{
+  width: 25%;
+  height:auto;
+  margin-right:18%;
+  background-color: #f6f6f8;
+  float: right;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.3);
+}
+
+.bodyforphones .itabtoprs22ultra h1{
+  float: left;
+  margin-top: 5%;
+  margin-left:2%;
+  font-size:2.2em;
+}
+.bodyforphones .itabtoprtexts22ultra{
+width:50%;
+height: auto;
+margin-left:3%;
+}
+
+.bodyforphones .itabtopltexts22ultra{
+width:20%;
+height: auto;
+margin-left:1%;
+text-align: left;
+
+}
+
+.bodyforphones .itabtopls22ultra h1{
+  float: left;
+  margin-top: 5%;
+  margin-bottom:5%;
+  margin-left: 5%;
+  font-size: 2.2em;
+  text-align: left;
+}
+
+.bodyforphones .itabbottomrs22ultra h1{
+  float: left;
+  margin-top: 5%;
+  margin-left: 5%;
+  text-align: justify;
+  font-size: 2em;
+}
+
+div .camtexts22ultra{
+  width: 70%;
+  margin-left:-1.5%;
+}
+
+.bodyforphones .itabbottomls22ultra{
+  width: 35%;
+  height: auto;
+  margin-left: 19%;
+  margin-top:1%;
+  background-color: ##f6f6f8;
+  float: left;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.3);
+}
+
+.bodyforphones .itabbottomrs22ultra{
+  width: 63%;
+  height: auto;
+  margin-left:19%;
+  margin-top: 1%;
+  background-color: #f6f6f8;
+  float:left;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.3);
+}
+
+.bodyforphones .itabtopls22ultra img{
+  width:45%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 25px;
+  float: right;
+  margin-top:-15%;
+  margin-right: 10%;
+}
+
+.bodyforphones .itabtoprs22ultra img{
+  width:60%;
+  height:auto;
+  object-fit: cover;
+  float: right;
+  border-radius: 25px;
+  margin-top:-18%;
+}
+
+.bodyforphones .itabbottomls22ultra img{
+  width:100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.bodyforphones .itabbottomrs22ultra img{
+  width:30%;
+  height:auto;
+  object-fit: cover;
+  border-top-right-radius:20px;
+  border-bottom-right-radius: 20px;
+  float: right;
+}
+
+
+ .btngroup{
+  float: left;
+  margin-left:13%;
+  margin-top: 5%;
+  margin-right:2%;
+  width: 30px;
+}
+.btngroup #buttongreens22ultra{
+  background-color:#394c38;
+  border:3px solid white;
+  width:40px;
+  height:40px;
+  border-radius: 100%;
+  display: block;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.45);
+}
+
+#buttongreens22ultra:hover{
+  transform: scale(1.1);
+  transition:0.5s;
+  cursor: pointer;
+}
+
+.btngroup #buttonblues22ultra{
+  background-color:#276787;
+  border:3px solid white;
+  width:40px;
+  height: 40px;
+  border-radius: 100%;
+  display: block;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.45);
+}
+
+#buttonblues22ultra:hover{
+  transform: scale(1.1);
+  transition:0.5s;
+  cursor: pointer;
+}
+
+
+.btngroup #buttonpinks22ultra{
+  background-color:#60424d;
+  border:3px solid white;
+  width:40px;
+  height:40px;
+  border-radius: 100%;
+  display: block;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.45);
+}
+
+#buttonpinks22ultra:hover{
+  transform: scale(1.1);
+  transition:0.5s;
+  cursor: pointer;
+}
+.btngroup #buttonwhites22ultra{
+  background-color: white;
+  border:3px solid #dddada;
+  width:40px;
+  height: 40px;
+  border-radius: 100%;
+  display: block;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.45);
+}
+
+#buttonwhites22ultra:hover{
+  transform: scale(1.1);
+  transition:0.5s;
+  cursor: pointer;
+}
+
+.btngroup #buttonblacks22ultra{
+  background-color:#232a31;
+  border:3px solid white;
+  width:40px;
+  height: 40px;
+  border-radius: 100%;
+  display: block;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.45);
+}
+
+#buttonblacks22ultra:hover{
+  transform: scale(1.1);
+  transition:0.5s;
+  cursor: pointer;
+}
+
+/* SPECS*/
+.specs13s22ultra{
+  width: 90%;
+  height: auto;
+  margin-top:48%;
+  margin-left: 5%;
+  margin-bottom:5%;
+  border-radius: 20px;
+  background-color:#fcfcfc;
+  box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.3);
+}
+
+.bodyforphones .specs13s22ultra img{
+  width: 10%;
+  height: auto;
+  object-fit: cover;
+  margin-top:4%;
+  margin-bottom:4%;
+  margin-left: 2%;
+}
+
+.bodyforphones .specs13s22ultra .vidwrapper{
+  width:25%;
+}
+
+.bodyforphones .specs13s22ultra video{
+  width: 150%;
+  height: auto;
+  object-fit: cover;
+  margin-top:4%;
+  margin-bottom:4%;
+}
+
+.specs13s22ultra h1{
+  font-size: 1.5em;
+  margin-bottom:-4%;
+}
+
+
+
+/*END OF SAMSUNG PHONES STYLING*/
+
+/*START OF APPLE WATCHES PAGE STYLING*/
+
+.openingbox{
+  width: 100%;
+  height: auto;
+  float: left;
+  margin-bottom: 6%;
+}
+
+.owtext{
+  float: right;
+  margin-right: 2%;
+  text-align: center;
+  width: 50%;
+  height: auto;
+}
+
+.owtext h1{
+  font-size:3.5em;
+}
+
+.owtext h2{
+    color: #A10800;
+}
+
+.owtext p{
+  font-size: 2.5em;
+}
+
+.watchbody .openingwatch{
+  width: 30%;
+  height: auto;
+  margin-left: 5%;
+  float: left;
+}
+
+
+div .openingwatch img{
+  width: 40%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 20px;
+  margin-left: 5%;
+}
+
+div .watchcard img{
+  width: 100%;
+  height:auto;
+  object-fit: cover;
+  border-top-left-radius: 20px ;
+  border-top-right-radius: 20px;
+}
+
+.watchbody ul li .watchcard{
+    float: left;
+    width: 20%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top:-5%;
+    height:auto;
+    line-height: 50px;
+    text-align: center;
+    color:#202020;
+    font-size: 20px;
+    box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.5);
+    border-radius: 20px;
+    overflow:hidden;
+    text-overflow: ellipsis;
+}
+
+.watchbody ul li .watchcard h1{
+  font-size: 1em;
+  line-height:1.5;
+  margin-top:-5%;
+}
+
+.watchbody ul li .watchcard p{
+  font-size: 18px;
+  margin-top:1%;
+  line-height: 1.5;
+}
+
+.watchbody ul li .watchcard .price p{
+  font-size: 18px;
+  margin-top: 1%;
+}
+
+
+
+.watchbody ul li .watchcard a{
+  font-size:1.5em;
+  margin-top: 0%;
+}
+
+.watchbody ul li .watchcard:hover{
+    box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.9);
+}
+
+.watchbody ul li .watchcard a:hover{
+  color:#202020;
+}
+
+.underline:hover{
+  text-decoration: underline;
+  transform: scale(1.1);
+  transition:1s;
+}
+
+/*APPLE WATCH CARD WIDE*/
+div .widecard img{
+  width: 100%;
+  height:auto;
+  object-fit: cover;
+  border-radius:20px;
+  padding: 0;
+}
+
+.watchbody ul li .widecard{
+  width: 72%;
+  height:auto;
+  margin-left: 2%;
+  margin-bottom:-10%;
+  text-align: center;
+  color:#202020;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+.widecard:hover{
+  transform: scale(1.03);
+  transition:1s;
+}
+/*WATCH CARD ELEMENTS SIDE*/
+.watchbody ul li .watchcardside{
+  width: 25%;
+  height: auto;
+  float: right;
+  background-color: #000;
+}
+
+div .endwatchimg img{
+  width: 100%;
+  height: auto;
+  margin-top: 15%;
+  object-fit: cover;
+}
+
+.watchbody .endwatchimg{
+  width: 100%;
+  height: auto;
+  margin-top: 5%;
+}
+
+ .centerwatchimg img{
+  width: 100%;
+  height: auto;
+  margin-top: 5%;
+  object-fit: cover;
+}
+
+.watchbody .centerwatchimg{
+  width: 100%;
+  height: auto;
+  margin-top: 5%;
+}
+/*END OF APPLE WATCHES PAGE STYLING*/
+
+ .producthead h1{
+  margin-bottom: 10%;
+}
+/*AIRPODS STYLING */
+
+div .airpodsbody{
+  width: 100%;
+  height: auto;
+
+}
+
+div .mainpod{
+  width: 35%;
+  height: auto;
+  margin-top:5%;
+  margin-bottom:5%;
+  margin-left: 32.5%;
+
+}
+
+.airpodsbody .mainpod img{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.airpodsbody .verticalpodsbox img{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+div .verticalpodsbox{
+  width: 35%;
+  height: auto;
+  margin-left: 16%;
+  margin-bottom: -53.5%;
+}
+
+.airpodsbody .podssquarebox img{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 1px rgba(0,0,3,0.2);
+}
+
+div .podssquarebox{
+  width: 26.5%;
+  height: auto;
+  margin-left: 56%;
+
+}
+
+div .airpodsbody .podboxmain{
+  width: 90%;
+  height:500px;
+  margin-left: 5%;
+  background-color: #000;
+  border-radius: 20px;
+}
+
+div .podscontainer{
+  width: 70%;
+  height: auto;
+  background-color: #000;
+  margin-top: 5%;
+  margin-left: 15%;
+  background-color: #fff;
+}
+
+
+.podscontainer ul li .podscard{
+    float: left;
+    width: 25%;
+    height:auto;
+    line-height: 50px;
+    text-align: center;
+    color:#202020;
+    font-size: 20px;
+    border-radius: 20px;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 15%;
+
+}
+
+div .podscard img{
+  width: 80%;
+  height: auto;
+  object-fit: cover;
+  border-top-left-radius: 20px ;
+  border-top-right-radius: 20px;
+}
+
+
+.podscontainer ul li .podscard h1{
+  line-height:1;
+  font-size: 1.8em;
+  margin-bottom: 12%;
+}
+
+.podscard p{
+  line-height:1;
+  font-size: 16px;
+  text-align:justify;
+  margin-bottom: 4%;
+}
+
+div .endpod{
+  width: 100%;
+  height:auto;
+}
+
+.endpod .endpodimg img{
+  width:80%;
+  height: auto;
+  margin-left: 10%;
+  margin-top:-10%;
+  margin-bottom: 5%;
+}
+
+div .galaxypods{
+  margin-top: 55%;
+
+}
+/*AIRPODS STYLING END*/
+
+
+
+/*NEWS STYLING*/
+
+div .newscard img{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-top-left-radius: 20px ;
+  border-top-right-radius: 20px;
+}
+
+div .newscard img:hover{
+  transform: scale(1.06);
+  transition:1s;
+}
+
+.newsbody ul li .newscard{
+    float: left;
+    width: 40%;
+    margin-left: 7%;
+    height:auto;
+    line-height: 50px;
+    text-align: center;
+    color:#202020;
+    font-size: 20px;
+    box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.5);
+    border-radius: 20px;
+    margin-bottom:8%;
+    overflow:hidden;
+    text-overflow: ellipsis;
+}
+
+
+.newsbody ul li .newscard a{
+  font-size:1.5em;
+}
+
+
+.newsbody ul li .newscard a:hover{
+  color:#202020;
+}
+
+.rectangle{
+  width: 40%;
+  height:10px;
+  margin-top: 25%;
+  margin-bottom: 5%;
+  margin-left:30%;
+  background-color:#202020;
+  border-radius:20px;
+}
+
+.rectangle:hover{
+  transform: scale(1.1);
+  transition:0.6s;
+  cursor:default;
+}
+
+@media screen and (max-width:100%){
+    .defaultmain ul li{
+        width:40%;
+
+}
+
+@media screen and (max-width:100%){
+    .newsbody ul li{
+        width:40%;
+
+        }
+@media screen and (max-width:100%){
+    .applewatchbody ul li{
+        width:40%;
+
+}
