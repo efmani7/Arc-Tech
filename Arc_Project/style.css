@@ -592,20 +592,29 @@ div .camtext{
   box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.3);
 }
 
+.subspecs{
+  width: 40%;
+  height: auto;
+  float: right;
+  margin-right: -5%;
+  line-height: 2em;
+}
+
 .bodyforphones .specs13 img{
-  width: 10%;
+  width: 18%;
   height: auto;
   object-fit: cover;
-  margin-top:4%;
-  margin-bottom:4%;
+  margin-top:14%;
+  margin-bottom:15%;
   margin-left: 2%;
 }
 
-.specs13 h1{
-  font-size: 1.5em;
+.specs13 .subspecs h1{
+  font-size: 1.2em;
   margin-left:-40%;
   margin-right: 5%;
   margin-bottom: -4%;
+  margin-top:5%;
 }
 
 .mainpics{
@@ -848,7 +857,7 @@ div .camtext{
 .specs13pro{
   width: 90%;
   height: auto;
-  margin-top:75%;
+  margin-top:80%;
   margin-left: 5%;
   margin-bottom:2%;
   border-radius: 20px;
@@ -857,20 +866,20 @@ div .camtext{
 }
 
 .bodyforphones .specs13pro img{
-  width: 10%;
+  width: 18%;
   height: auto;
   object-fit: cover;
-  margin-top: 4%;
-  margin-bottom: 4%;
+  margin-top: 15%;
+  margin-bottom: 13%;
   margin-left: 2%;
 }
 
 .specs13pro h1{
-  font-size: 1.5em;
+  font-size: 1.2em;
   margin-left:-40%;
   margin-right: 5%;
   margin-top: 4%;
-    margin-bottom: -4%;
+  margin-bottom: -4%;
 }
 
 /*END OF iPHONE PAGE STYLING*/
@@ -1096,10 +1105,10 @@ div .camtexts22{
 }
 
 /* SPECS*/
-.specs13s22{
+.specss22{
   width: 90%;
   height: auto;
-  margin-top:48%;
+  margin-top:58%;
   margin-left: 5%;
   margin-bottom:5%;
   border-radius: 20px;
@@ -1107,7 +1116,7 @@ div .camtexts22{
   box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.3);
 }
 
-.bodyforphones .specs13s22 img{
+.bodyforphones .specss22 img{
   width: 10%;
   height: auto;
   object-fit: cover;
@@ -1116,30 +1125,39 @@ div .camtexts22{
   margin-left: 2%;
 }
 
-.bodyforphones .specs13s22 .vidwrapper{
+.bodyforphones .specss22 .vidwrapper{
   width:25%;
 }
 
-.bodyforphones .specs13s22 video{
-  width: 150%;
+.bodyforphones .specss22 video{
+  width: 200%;
   height: auto;
   object-fit: cover;
-  margin-top:4%;
-  margin-bottom:4%;
+  margin-top:30%;
+  margin-bottom:43%;
 }
 
-.specs13s22 h1{
-  font-size: 1.5em;
-  margin-bottom:-4%;
+.specss22 h1{
+  font-size:1em;
 }
 
 .mainpics{
 margin-bottom: -70%;
 }
+
 .mainpics img{
   width: 100%;
   height: auto;
 
+}
+
+.subspecssam{
+  width:28%;
+  height: auto;
+  float: right;
+  margin-right: 2%;
+  margin-left: -6%;
+  line-height: 1.12em;
 }
 /*ULTRA*/
 
@@ -1357,10 +1375,10 @@ div .camtexts22ultra{
 }
 
 /* SPECS*/
-.specs13s22ultra{
+.specss22ultra{
   width: 90%;
   height: auto;
-  margin-top:48%;
+  margin-top:58%;
   margin-left: 5%;
   margin-bottom:5%;
   border-radius: 20px;
@@ -1368,7 +1386,7 @@ div .camtexts22ultra{
   box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.3);
 }
 
-.bodyforphones .specs13s22ultra img{
+.bodyforphones .specss22ultra img{
   width: 10%;
   height: auto;
   object-fit: cover;
@@ -1377,24 +1395,30 @@ div .camtexts22ultra{
   margin-left: 2%;
 }
 
-.bodyforphones .specs13s22ultra .vidwrapper{
+.bodyforphones .specss22ultra .vidwrapper{
   width:25%;
 }
 
-.bodyforphones .specs13s22ultra video{
-  width: 150%;
+.bodyforphones .specss22ultra video{
+  width: 200%;
   height: auto;
   object-fit: cover;
-  margin-top:4%;
-  margin-bottom:4%;
+  margin-top:69%;
+  margin-bottom:79%;
 }
 
-.specs13s22ultra h1{
-  font-size: 1.5em;
-  margin-bottom:-4%;
+.specss22ultra h1{
+  font-size: 1.2em;
+margin-top: -8%;
 }
 
-
+.subspecssamultra{
+  width:28%;
+  height: auto;
+  float: right;
+  margin-right:20%;
+  line-height:1.8em;
+}
 
 /*END OF SAMSUNG PHONES STYLING*/
 
