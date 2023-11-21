@@ -233,7 +233,7 @@ div .defaultmain{
     list-style: none;
     width:32%;
     height:auto;
-    margin-left: 12%;
+    margin-left: 16%;
     margin-bottom:5%;
     margin-top: 5%;
     box-sizing: border-box;
@@ -249,7 +249,7 @@ div .defaultmain{
 }
 
 .defaultmain ul li .productad{
-    width: 100%;
+    width: 60%;
     height:auto;
     line-height: 50px;
     text-align: center;
@@ -260,6 +260,7 @@ div .defaultmain{
 
 .defaultmain ul li .productad a{
   font-size:1.5em;
+  color: #5c677d;
 }
 
 
