@@ -9,7 +9,7 @@
 
   <!--links-->
   <link href="http://fonts.cdnfonts.com/css/sf-pro-display?styles=98774,98773,98775,98770" rel="stylesheet">
-  <link rel="icon" type="images/x-icon" href="">
+  <link rel="icon" type="images/x-icon" href="logoarc.svg">
   <!--STYLE SHEET-->
   <link rel="stylesheet" href="style.css">
 
@@ -22,21 +22,34 @@
     }
 
     body {
-      font-family: 'sf pro display', helvetica, sans-serif;
+      font-family: "SF Pro Display", "Helvetica Neue", sans-serif;
+      background-color: #f5f5f7;
     }
 
     /* Style the header */
-    .header {
-      text-align: center;
+    .headerbox {
       width: 100%;
-      margin-top: 2%;
       height: auto;
+
+    }
+
+
+    .header {
+      width: 100%;
+      margin-bottom: 2%;
+      height: 60px;
+      box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
+      background-color: #fff;
+      margin-top: -0.5%;
+      mix-blend-mode: multiply;
     }
 
     /* Increase the font size of the h1 element */
     .header h1 {
-      font-size: 3em;
+      font-size: 1.35em;
       color: #3f3f3f;
+      line-height: 2.8em;
+      margin-left: -74%;
     }
 
     /*SECTION BREAKER*/
@@ -46,14 +59,15 @@
       color: #000;
     }
 
+
     /*END SECTION BREAKER*/
 
     /* NEWS IMAGE */
 
     .defaultimgs {
-      width: 50%;
+      width: 60%;
       height: auto;
-      margin-left: 25%;
+      margin-left: 20%;
     }
 
     .defaultimgs img {
@@ -73,14 +87,54 @@
       margin-left: 5%;
     }
 
-    h6 {
+    .newstext p {
       font-size: 0.45em;
       text-align: justify;
     }
 
+    h3 {
+      font-size: 0.9em;
+    }
+
+
+    .rectangle {
+      width: 40%;
+      height: 10px;
+      margin-top: 10%;
+      margin-bottom: 15%;
+      margin-left: 30%;
+      background-color: #202020;
+      border-radius: 20px;
+    }
+
+    .rectangle:hover {
+      transform: none;
+    }
+
+    .pros {
+      float: left;
+      margin-left: 2%;
+      margin-bottom: 10%;
+    }
+
+    .cons {
+      float: right;
+      margin-top: -4.8%;
+      margin-bottom: 10%;
+      margin-right: 3%;
+    }
+
+
+
     .lists ul li {
       font-size: 0.4em;
       font-weight: 500;
+    }
+
+    .newstext p {
+      font-size: .42em;
+      text-align: justify;
+      color: #2f2f2f;
     }
   </style>
 
@@ -95,11 +149,10 @@
         <li> <a href="index.html">Home</a></li>
         <li><a href="products.html"> Products</a></li>
         <li> <a href="news.html">News</a> </li>
+        <li> <a href="newsinfo.html">News Articles</a> </li>
         <li> <a href="contact.html">Contact</a> </li>
-        <li> <a href="location.html"> Location</a> </li>
-        <li> <a href="newsinfo.html"> Arc News</a> </li>
       </ul>
-      <a class="user" href="#"></a> <button>Login</button>
+      <a id="1st" class="user" href="#"></a> <button>Login</button>
     </nav>
   </header>
   <br>
@@ -110,11 +163,13 @@
   <div class="mainnewspage">
 
     <div class="header">
-      <h1>Arc Tech News</h1>
-      <p>Bringing the latest news to you</p>
+      <h1>Newsroom</h1>
     </div>
-
-
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 
     <div class="main">
       <br>
@@ -124,16 +179,17 @@
       <br>
       <div class="defaultimgs">
 
-        <img src="news/images/Apple_Al_Maryah_Island_interior.jpg" alt="">
+        <img src="news/images/Apple_Al_Maryah_Island_interior.jpg" alt="Apple company building">
       </div>
       <br>
       <br>
       <div class="newstext">
 
 
-        <h6>ABU DHABI, UNITED ARAB EMIRATES Apple today previewed Apple Al Maryah Island, a new retail destination elevated
+        <p>ABU DHABI, UNITED ARAB EMIRATES Apple today previewed Apple Al Maryah Island, a new retail destination elevated
           above steps of cascading water. The new store creates a direct connection from The Galleria Al Maryah Island to the water’s edge,
-          delivering the best of Apple with shoreline views amid Abu Dhabi’s prestigious financial district.</h6>
+          delivering the best of Apple with shoreline views amid Abu Dhabi’s prestigious financial district.
+        </p>
 
       </div>
       <br>
@@ -141,35 +197,32 @@
       <div class="newstext">
 
 
-        <h6>“We couldn’t be more thrilled to open the stunning Apple Al Maryah Island this Friday,” said Deirdre O’Brien,
+        <p>“We couldn’t be more thrilled to open the stunning Apple Al Maryah Island this Friday,” said Deirdre O’Brien,
           Apple’s senior vice president of Retail + People. “Our talented team is ready to welcome and delight customers
-          from this vibrant community to our newest location in the Emirates.”</h6>
+          from this vibrant community to our newest location in the Emirates.”
+        </p>
       </div>
       <br>
       <br>
 
       <div class="footer">
-        <h5>Building Features<h5>
+        <h5>Building Features</h5>
       </div>
 
-
-
-      <br>
       <br>
       <div class="defaultimgs">
 
-        <img src="news/images/Apple_Al_Maryah_Island_employees.jpg" alt="">
+        <img src="news/images/Apple_Al_Maryah_Island_employees.jpg" alt="Apple company building">
       </div>
       <br>
       <br>
       <div class="newstext">
-        <h6>Apple Al Maryah Island will debut three unique Today at Apple sessions that draw inspiration from the beautiful surroundings
-          and creative culture of Abu Dhabi:</h6>
+        <p>Apple Al Maryah Island will debut three unique Today at Apple sessions that draw inspiration from the beautiful surroundings
+          and creative culture of Abu Dhabi:</p>
       </div>
 
       <br>
       <div class="lists">
-
 
         <ul>
           <li>Photo Walk: Fluidity and Motion with iPhone 13 Pro, co-created with local photographer Mohamed Somji</li>
@@ -181,23 +234,23 @@
       <br>
 
       <div class="newstext">
-        <h6>On March 6, photographer Mohamed Somji will lead a co-created Photo Walk, sharing his personal techniques. Future Today at Apple sessions hosted in the Forum at Apple Al Maryah Island will invite local musicians,
+        <p>On March 6, photographer Mohamed Somji will lead a co-created Photo Walk, sharing his personal techniques. Future Today at Apple sessions hosted in the Forum at Apple Al Maryah Island will invite local musicians,
           artists, developers, entrepreneurs, and educators that reflect the innovative community of Abu Dhabi. Participants can register for all sessions at apple.co/creativity-within. Apple will also offer ongoing personal advice and guidance for
-          local businesses in the dedicated Boardroom. To further celebrate the grand opening, visitors can also access an exclusive and specially curated Apple Music playlist, featuring local United Arab Emirates artists.</h6>
+          local businesses in the dedicated Boardroom. To further celebrate the grand opening, visitors can also access an exclusive and specially curated Apple Music playlist, featuring local United Arab Emirates artists.</p>
 
       </div>
 
       <br>
 
       <div class="newstext">
-        <h6>The new store’s multicultural team of more than 80 members represent 28 nationalities and collectively speak over 30 languages, including Arabic, French, Hindi, Tagalog, and more. Throughout the expansive space,
-          customers can get shopping assistance from highly knowledgeable Specialists as they explore the latest products, learn more about Apple services such as the Trade In program, or receive expert advice and support at the Genius Grove.</h6>
+        <p>The new store’s multicultural team of more than 80 members represent 28 nationalities and collectively speak over 30 languages, including Arabic, French, Hindi, Tagalog, and more. Throughout the expansive space,
+          customers can get shopping assistance from highly knowledgeable Specialists as they explore the latest products, learn more about Apple services such as the Trade In program, or receive expert advice and support at the Genius Grove.</p>
       </div>
       <br>
       <br>
       <div class="defaultimgs">
 
-        <img src="news/images/Apple_Al_Maryah_Island_exterior.jpg" alt="">
+        <img src="news/images/Apple_Al_Maryah_Island_exterior.jpg" alt="Apple company building">
 
       </div>
       <br>
@@ -205,22 +258,1484 @@
 
 
       <div class="newstext">
-        <h6>Apple Al Maryah Island introduces several new design elements reflective of its surroundings. From the promenade, two ramps paved with Absolute Black granite stone — the first use of this material at any Apple Store — cut
+        <p>Apple Al Maryah Island introduces several new design elements reflective of its surroundings. From the promenade, two ramps paved with Absolute Black granite stone — the first use of this material at any Apple Store — cut
           through water and continue seamlessly inside the store, blurring the barrier between inside and out. The store also features a golden carbon fiber roof locally sourced in the UAE. Visitors entering from The Galleria Al Maryah Island Mall
-          will walk through a mirrored stainless steel portal, enveloped by the sights and sounds of water jets cascading over exterior glass walls. A 72-foot-long mirrored foil ceiling creates a kaleidoscopic effect, with water falling down the walls, and
-          reflections seen above.</h6>
+          will walk through a mirrored stainless steel portal, enveloped by the sights and sounds of water jets cascading over exterior glass walls. A 72-foot-long mirrored foil ceiling creates a kaleidoscopic effect, with water falling down the
+          walls, and
+          reflections seen above.
+        </p>
         <br>
       </div>
 
       <div class="newstext">
-        <h6 id="last">Once inside, guests are greeted with panoramic views of Abu Dhabi’s extraordinary skyline. When looking up, customers will also find a unique ceiling made of stretched gold fabric. The glass walls bring in the natural light,
-          with ficus trees adding greenery to the interior. An innovative radiant floor system combined with displacement ventilation helps cool the building.</h6>
+        <p>Once inside, guests are greeted with panoramic views of Abu Dhabi’s extraordinary skyline. When looking up, customers will also find a unique ceiling made of stretched gold fabric. The glass walls bring in the natural light,
+          with ficus trees adding greenery to the interior. An innovative radiant floor system combined with displacement ventilation helps cool the building.</p>
       </div>
       <div class="rectangle">
 
       </div>
     </div>
 
+    <!--Article 2-->
+    <div id="2nd">
+      <h1 style="color:#f5f5f7">2nd</h1>
+    </div>
+
+    <div class="mainnewspage">
+
+      <div class="main">
+        <br>
+        <h3>GPU prices are now dropping below MSRP</h3>
+        <br>
+        <p>PRESS RELEASE | May 5, 2022</p>
+        <br>
+        <div class="defaultimgs">
+
+          <img src="news/images/Radeon.png" alt="AMD GPU">
+        </div>
+        <br>
+        <br>
+        <div class="newstext">
+
+
+          <p>With the GPU industry stabilizing after two years of shortages and inflated costs, prices for graphics cards
+            are finally approaching their manufacturer’s suggested retail prices (MSRPs). In some cases, though, certain
+            boards are now available for a price that is below their recommended retail price tags. Case in point: The AMD
+            Radeon 6900XT Gaming OC model can now be purchased for $50 below the official MSRP.</p>
+
+        </div>
+        <br>
+        <br>
+        <div class="newstext">
+
+
+          <br>
+          <br>
+          <div class="defaultimgs">
+
+            <img src="news/images/Radeon_RX_7000_GPU.png" alt="AMD GPU">
+          </div>
+          <br>
+          <br>
+          <br>
+          <br>
+
+          <div class="footer">
+
+          </div>
+
+
+          <div class="newstext">
+            <p>As reported by Tom’s Hardware, the Gigabyte RX 6900XT Gaming OC is currently being
+              sold by U.S. online retailer Newegg for $949. That’s a $50 drop from AMD’s $999 MSRP
+              for this specific range of video cards.
+            </p>
+          </div>
+          <br>
+          <br>
+
+          <div class="newstext">
+            <p>Interestingly, though, Newegg has actually listed a $50 rebate on top of the price
+              reduction, which means you can pick up a powerful AMD gaming video card for $899.
+              If you read that last sentence before 2022, you’d automatically assume it’s either
+              a scam, defective product, typo, or a flat-out lie.
+            </p>
+          </div>
+          <br>
+          <br>
+
+          <div class="newstext">
+            <p>Since the pandemic began in 2020 that kickstarted the chip shortage, coupled with
+              bottlenecked supply chains, current-gen AMD and Nvidia graphics cards have been almost
+              impossible to buy at MSRP. In fact, Tom’s Hardware notes that at one point during 2021
+              average GPU prices were above a staggering $1,000. Even last-gen boards saw scalpers
+              and re-sellers listing them for hundreds of dollars above their original price.
+            </p>
+          </div>
+          <br>
+          <br>
+
+          <div class="newstext">
+            <p>AMD, Nvidia, scalpers, crypto miners, and board partners for Team Green/Team Red all
+              saw their bottom line increasing by a significant margin. Asus even reportedly handed
+              out huge bonuses thanks to the amount of money it was generating from graphics cards. Cards
+              like the RX 6900XT, regardless of the model, were consistently listed for well above $1,000
+              on 3rd-party marketplaces, at least throughout 2021. In April, Tom’s Hardware highlighted
+              that this AMD GPU was being offered for an average price of $1,256 on platforms like eBay.
+            </p>
+          </div>
+          <br>
+          <br>
+
+          <div class="newstext">
+            <h3>Price drops across the board. But why?</h3>
+          </div>
+          <br>
+          <br>
+          <br>
+
+          <div class="newstext">
+            <p>As for the Newegg listing of the Gigabyte RX 6900XT Gaming OC, that $950 price point
+              (without the rebate) is a $300 discount from what is was being sold for in recent months. So why
+              are online marketplaces aggressively dropping the prices across the board for some of the most popular
+              graphics cards? There are a few reasons to consider. First, it was already a foregone conclusion that
+              prices will start to normalize around May — a scenario that was previously emphasized by a U.K. retailer.
+            </p>
+          </div>
+          <br>
+          <br>
+
+          <div class="newstext">
+            <p>Second, you have to remember that it wasn’t just scalpers who were selling GPUs at inflated costs.
+              Retailers — and indeed Nvidia/AMD board partners themselves — generated significant revenue and profits due
+              to the unprecedented demand and shortage.</p>
+          </div>
+          <br>
+          <br>
+
+          <div class="newstext">
+            <p>If consumers were still buying these video cards at a level above their MSRP, you would not be seeing
+              price drops anywhere. Retailers, by all accounts, have seen demand levels return to normal and therefore
+              have plenty of excess stock.
+            </p>
+          </div>
+          <br>
+          <br>
+
+          <div class="newstext">
+            <h3>Next-gen is nearly here</h3>
+          </div>
+
+          <br>
+          <br>
+
+          <div class="newstext">
+            <p>Finally, there are only a few months left before the arrival of next-gen GPUs. These products are shaping
+              up to be some of the most exciting pieces of technology that we’ve ever seen, at least where graphics cards
+              are concerned. Many will simply choose to wait it out before paying nearly $1,000 for any GPU when they can
+              put that money towards an upgraded version.
+            </p>
+          </div>
+          <br>
+          <br>
+
+
+          <div class="newstext">
+            <p>Here’s where things start to get a bit more interesting and exciting. The current-gen RDNA 2 AMD Radeon
+              RX 6900XT, as mentioned above, retails for $999. However, the next-gen RDNA 3 successor is rumored to offer
+              similar performance levels to the former at a price between $399 and $499.
+            </p>
+          </div>
+          <br>
+          <br>
+
+
+          <div class="newstext">
+            <p>The cost for current-gen boards will also naturally decline once their successors hit the market, so consumers
+              will be waiting for that state of affairs to materialize as well. Nvidia is even contemplating selling its RTX 30-series
+              alongside the RTX 40 range so finding one won’t be a problem.
+            </p>
+          </div>
+          <br>
+          <br>
+
+
+          <div class="newstext">
+            <p>All things considered, expect to see AMD and Nvidia graphics cards across the board moving closer to their MSRPs, or even
+              dropping below it, in the near future. Elsewhere, Tom’s Hardware notes that we should anticipate additional price reductions
+              for GPUs from the Radeon RX 6000-series — the upgraded RX 6×50 RDNA 2 refresh is reportedly set to become available in the coming weeks.
+            </p>
+          </div>
+          <div class="rectangle">
+
+          </div>
+        </div>
+
+
+        <!--Article 3-->
+        <div id="3rd">
+          <h1 style="color:#f5f5f7">3rd</h1>
+        </div>
+
+        <div class="mainnewspage">
+          <div class="main">
+            <br>
+            <h3>Nintendo Switch review</h3>
+            <br>
+            <p>PRESS RELEASE | July 08, 2021</p>
+            <br>
+            <div class="defaultimgs">
+
+              <img src="news/images/ninetendoswitch.jpg" alt="Nintendo">
+            </div>
+            <br>
+            <br>
+            <div class="newstext">
+              <h3>Customer Review</h3>
+            </div>
+
+            <br>
+            <br>
+            <div class="newstext">
+
+
+              <p>The Nintendo Switch is one-part handheld and one-part home console, and hopes
+                to be the only device you'll ever need for gaming, wherever you are. The hybrid
+                console is an undeniable success, offering up an exceptional level of handheld
+                graphical quality, while seamlessly transitioning into a home console – though
+                this very adaptability has required compromises on power and functionality
+                compared to the dedicated consoles and handhelds that came before it.
+              </p>
+            </div>
+            <br>
+            <br>
+
+            <div class="pros">
+              <h3> Pros </h3>
+              <br>
+              <br>
+
+              <ul>
+                <li>
+                  <p>+HD Rumble</p>
+                </li>
+                <li>
+                  <p>+Unique hybrid design</p>
+                </li>
+                <li>
+                  <p>+Two controllers included</p>
+                </li>
+                <li>
+                  <p>+Bright, crisp, colorful screen</p>
+                </li>
+              </ul>
+            </div>
+
+            <br>
+            <br>
+            <div class="cons">
+              <h3> Cons </h3>
+              <br>
+              <br>
+
+              <ul>
+                <li>
+                  <p>-Split D-pad</p>
+                </li>
+                <li>
+                  <p>-Oddly placed right analogue stick</p>
+                </li>
+                <li>
+                  <p>-Limited online service at launch</p>
+                </li>
+                <li>
+                  <p>-Joy-Cons charge only on console without accessory
+                  <p>
+                </li>
+              </ul>
+            </div>
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="newstext">
+              <p>The Nintendo Switch is a console that does a lot of things all at once. L
+                ike the motion controls of the Wii, or the glasses-free 3D of the Nintendo 3DS,
+                or the experimental second screen of the Wii U, the Switch's innovative hybrid design
+                has helped Nintendo to continue to blaze its own trail and do something different. In the
+                three years since its launch, the Nintendo Switch has become a true gaming hit—every holiday
+                season it's one of the most popular devices around, and as social distancing rules have
+                taken effect during the coronavirus pandemic it's become a firm favorite with gamers and
+                non-gamers alike.
+              </p>
+            </div>
+            <br>
+
+            <div class="newstext">
+              <p>A large part of the Nintendo Switch's success is its hybrid design which has allowed it to
+                bridge the gap between handheld console and home console in a totally unique way.
+              </p>
+            </div>
+            <br>
+
+            <div class="newstext">
+              <p>The way that the Nintendo Switch combines gaming on-the-go and gaming at home, making each a
+                delight in its own way, is a credit to Nintendo's team. With its ever-growing library of exclusive
+                first-party games and top-tier third-party titles, the Nintendo Switch is a better proposition than ever.</p>
+            </div>
+
+            <div class="newstext">
+              <p>Whether you've already made your purchase or not, you have to agree that the Nintendo Switch is a fine
+                idea, mixing together some of what made the Wii and Wii U appealing for gamers (even if developers had a
+                harder time figuring out how to make the most of the latter device).
+              </p>
+            </div>
+            <br>
+
+            <div class="newstext">
+              <p>The Nintendo Switch brings with it a central idea that can benefit literally every game, not just the select
+                few that can use motion control or a second screen. Who hasn't at one time wanted to pack up their console and
+                take it with them?</p>
+            </div>
+            <br>
+
+            <div class="newstext">
+              <p>Largely, the Switch delivers very well on this hybrid idea. You'll find it a solid, premium-feeling handheld,
+                which can then flip into docked mode and work more or less as you'd expect a home console to, if and when needed.</p>
+            </div>
+            <br>
+
+            <div class="newstext">
+              <p>At the same time, the Nintendo Switch certainly isn't perfect: most of the issues it has are a consequence of
+                the way that it dares to try and do everything at once, and it doesn't always get the compromise right.
+              </p>
+            </div>
+            <br>
+
+            <div class="newstext">
+              <p>Those who aren't sold on its hybridity and just want that classic Nintendo handheld experience will no doubt
+                be interest in the compact, lighter alternative: the Nintendo Switch Lite, which offers a solely handheld
+                Switch gaming experience.
+              </p>
+            </div>
+            <br>
+            <br>
+
+            <h3>Price and release date</h3>
+            <br>
+
+            <ul>
+              <li>
+                <p>-What is it? Nintendo's hybrid console</p>
+              </li>
+              <li>
+                <p>-When did it come out? March 3, 2017</p>
+              </li>
+              <li>
+                <p>-What does it cost? $299.99 in the US</p>
+              </li>
+            </ul>
+            <br>
+            <br>
+
+            <h3>Design</h3>
+            <br>
+
+            <ul>
+              <li>
+                <p>-Three form factors: handheld, console (docked) and tabletop</p>
+              </li>
+              <li>
+                <p>-Lots of accessories, which are at risk of being misplaced</p>
+              </li>
+
+              <br>
+
+              <div class="defaultimgs">
+
+                <img src="news/images/Nintendo_2.jpg" alt="Nintendo">
+              </div>
+              <br>
+              <br>
+
+              <div class="newstext">
+                <p>In the box with your shiny new Nintendo Switch you get the main console, two detachable controller sides (Joy-Cons), a
+                  grip which enables you to combine these controller portions into a more traditional gamepad, two straps which can make
+                  them into two individual controllers, and a dock for plugging the console into your television. </p>
+              </div>
+              <br>
+
+              <div class="newstext">
+                <p>You also get a USB Type-C power cable (with a non-detachable power brick) and an HDMI cable for connecting the device to your TV. </p>
+              </div>
+              <br>
+
+              <div class="newstext">
+                <p>If you think that sounds like a lot of accessories then you'd be right: we suspect a lot of Nintendo Switch owners will have misplaced at
+                  least one or two of these within the space of a few months.</p>
+              </div>
+              <br>
+
+              <div class="newstext">
+                <p>We've taken to wrapping our Joy-Con straps around our Joy-Con grip just to keep everything together, but we'd love some way of attaching
+                  them to the console so they don't end up getting misplaced.</p>
+              </div>
+              <br>
+
+              <div class="newstext">
+                <p>It's a pretty novel (not to mention somewhat complicated) setup, so it's worth delving into each of the different ways you can use the console.</p>
+              </div>
+              <br>
+              <br>
+
+              <div class="newstext">
+                <h3>Set-up</h3>
+              </div>
+              <br>
+              <p> Set-up is simple enough
+              <p>
+                <br>
+              <p>- Console needs to be told whether Joy-Cons are being used together or separately</p>
+              <br>
+              <div class="defaultimgs">
+
+                <img src="news/images/Nintendo_3.png" alt="Nintendo">
+
+              </div>
+              <br>
+              <br>
+
+              <div class="newstext">
+                <p>Setting up a brand new Nintendo Switch is refreshingly simple, you'll be pleased to learn.</p>
+              </div>
+              <br>
+
+              <div class="newstext">
+                <p>If you're using the device as a handheld, simply attach the Joy-Cons, press the power button,
+                  and... er... that's it.</p>
+              </div>
+              <br>
+
+              <div class="newstext">
+                <p>If you want to play Nintendo Switch games on your TV, you need to plug the dock into the TV via HDMI,
+                  then hook it up to some power via the included USB Type-C power lead. The console then easily slips
+                  into the dock.</p>
+              </div>
+              <br>
+
+              <div class="newstext">
+                <p>Pairing the controllers is a little more complicated than with other devices because of the fact
+                  that they can either be paired or used separately. The way you tell the Switch which controllers you're
+                  using is to press both the L and R shoulder buttons in whichever configuration you've opted for.</p>
+              </div>
+              <br>
+
+              <div class="newstext">
+                <p>So if you're using the Joy-Cons individually, you press the buttons on the Joy-Con straps to indicate
+                  that this is the case. </p>
+              </div>
+              <br>
+
+              <div class="newstext">
+                <p>On the software side, the console asks for the standard combination of Wi-Fi details and user account
+                  set-up info. These details are a doddle to input on the console's touchscreen – the keyboard isn't quite
+                  as good as a phone's but it's much better than a typical console experience.</p>
+              </div>
+              <br>
+
+              <div class="newstext">
+                <p>After that's taken care, games can be played off a cartridge or the Nintendo Switch's internal memory.</p>
+              </div>
+              <br>
+
+              <div class="defaultimgs">
+
+                <img src="news/images/Nintendo_4.png" alt="Nintendo">
+
+              </div>
+
+              <div class="rectangle">
+
+              </div>
+          </div>
+
+          <!--Article 4-->
+
+          <div id="4th">
+            <h1 style="color:#f5f5f7">4th</h1>
+          </div>
+
+          <div class="mainnewspage">
+
+
+            <div class="main">
+              <br>
+              <h4>Apple iPhone 14: here's everything we know so far</h4>
+              <br>
+              <p>PRESS RELEASE | June 13, 2022</p>
+              <br>
+              <br>
+              <div class="defaultimgs">
+
+                <img src="news/images/Apple_iPhone14.png" alt="iPhone 14">
+              </div>
+              <br>
+              <br>
+              <div class="newstext">
+                <p>The iPhone 14 might be the smallest upgrade we've seen Apple introduce in a long time - but
+                  the iPhone 14 Pro could be the biggest, as leaks point to the Pro models getting an
+                  incredible revamp.</p>
+              </div>
+              <br>
+
+              <div class="newstext">
+                <p>We've heard about four new iPhone 14 models in total, with the Pro and Pro Max variants
+                  tipped to get new features like an Always-On Display, higher-res rear camera, redesigned front
+                  camera cut-out and more. None of this is official, so take it with a pinch of salt, but there's
+                  been lots of corroboration in what leakers expect.</p>
+              </div>
+              <br>
+
+              <div class="newstext">
+                <p>We have a surprisingly clear picture of the form the iPhone 14 range might take – though this
+                  far from launch we’d be extra skeptical, as there’s plenty of time for things to change.</p>
+              </div>
+              <br>
+
+              <div class="newstext">
+                <p>But the rumors so far are promising, pointing to a completely new design for the iPhone 14 Pro
+                  and iPhone 14 Pro Max, a totally new model dubbed the iPhone 14 Max, and some significant
+                  camera upgrades.</p>
+              </div>
+              <br>
+
+              <div class="newstext">
+                <p>Below you'll find everything we've heard about the iPhone 14 so far, including details about
+                  the potential release date and price.</p>
+              </div>
+              <br>
+
+              <div class="newstext">
+                <p>And as soon as we hear anything else about the iPhone 14 we’ll add it to this article, so make
+                  sure to check back here soon, as leaks are rolling in at a surprisingly rapid rate already.</p>
+              </div>
+              <br>
+
+              <div class="newstext">
+                <p>One place we might hear something is at WWDC 2022, which is taking place today. While Apple is
+                  almost certainly not going to announce anything related to the iPhone 14 – it usually saves those
+                  announcements for later in the year – this could be the year it decides to mix things up. Regardless
+                  of what it announces though – be it an iPhone or not – be sure to follow along with our WWDC
+                  2022 liveblog for all the latest Apple news and our analysis.</p>
+              </div>
+              <br>
+
+              <br>
+
+              <h3>iPhone 14: what you need to know</h3>
+              <br>
+
+              <div class="newstext">
+                <p>iPhone 14 release date: There aren't any release date rumors yet, we've heard about the launch event: it could take place on
+                  September 13. Expect a release about a week after the debut.</p>
+              </div>
+              <br>
+
+              <div class="newstext">
+                <p>iPhone 14 price: Pricing is unknown, but for reference the iPhone 13 started at $799 / £779 / AU$1,349, and prices may be
+                  similar for the next models.</p>
+              </div>
+              <br>
+
+              <div class="newstext">
+                <p>Design: The iPhone 14 will probably look a lot like the iPhone 13, but the iPhone 14 Pro and Pro Max could get a punch-hole
+                  camera instead of a notch. There might also be a big-screen iPhone 14 Max in place of an iPhone 14 mini.</p>
+              </div>
+              <br>
+
+              <div class="newstext">
+                <p>Display: The iPhone 14 and iPhone 14 Pro could have 6.1-inch (or 6.06-inch) 1170 x 2532 OLED screens, while the iPhone 14 Max and
+                  iPhone 14 Pro Max could have 6.7-inch (or 6.68-inch) 1284 x 2778 OLED screens. Expect a 120Hz refresh rate on the Pro models and
+                  a 60Hz refresh rate on the others.</p>
+              </div>
+              <br>
+
+              <div class="newstext">
+                <p>Camera: The iPhone 14 Pro and Pro Max could have 48MP main cameras (up from 12MP on the current models). Other specs are
+                  unclear, but a triple-lens snapper on all but the standard iPhone 14 is likely, with the basic phone instead having two rear lenses.</p>
+              </div>
+              <br>
+
+              <div class="newstext">
+                <p>Specs: Every iPhone 14 model is expected to have a powerful A16 Bionic chipset, but the Pro models could additionally have 8GB of RAM
+                  (up from a maximum of 6GB currently) and up to 2TB of storage (up from a current maximum of 1TB). Some rumors suggest the iPhone 14 and 14
+                  Max could stick with last year's A15 Bionic though.</p>
+              </div>
+              <br>
+
+              <div class="newstext">
+                <p>Battery: Little is known about the battery yet, but there are claims that the capacity could increase, with the phones getting thicker
+                  to house their larger batteries.</p>
+              </div>
+              <br>
+              <br>
+              <br>
+
+              <h3>IPHONE 14 RELEASE DATE</h3>
+              <br>
+              <br>
+
+              <div class="newstext">
+                <p>The iPhone 13 was unveiled on September 14, 2021, and it shipped on September 24. While we probably won’t see the iPhone 14 on those exact
+                  dates in 2022, Apple tends to unveil the new models on either the first or second Tuesday in September, which would mean either
+                  September 6 or September 13.</p>
+              </div>
+              <br>
+              <br>
+              <br>
+
+              <h3>IPHONE 14 PRICE</h3>
+              <br>
+              <br>
+
+              <div class="newstext">
+                <p>We've heard one iPhone 14 price leak which detailed four members of the new range - with a Max included, but no Mini.</p>
+              </div>
+              <br>
+
+              <div class="newstext">
+                <p>Apparently the base phone will start at $799 - the iPhone 13 starts at $799 / £779 / AU$1,349, so that fits - with the iPhone 14 Max going for
+                  $100 more than that. We've similarly elsewhere heard that the iPhone 14 will have a similar starting price to the iPhone 13.</p>
+              </div>
+              <br>
+
+              <div class="newstext">
+                <p>The iPhone 14 Pro and Pro Max are said to go for $1,099 and $1,199 respectively, which would mean each would be $100 more than the starting
+                  price of their predecessors.</p>
+              </div>
+              <br>
+
+              <br>
+              <br>
+              <div class="defaultimgs">
+                <img src="news/images/iPhone14.png" alt="iPhone 14">
+              </div>
+              <br>
+              <br>
+
+              <h3>IPHONE 14 DESIGN</h3>
+              <br>
+              <br>
+
+              <div class="newstext">
+                <p>The biggest news on the iPhone 14’s design comes from one big leak, which includes unofficial renders of the iPhone 14 Pro Max.</p>
+              </div>
+              <br>
+
+              <div class="newstext">
+                <p>You can see one of these below, and it includes a punch-hole camera instead of a notch, with the Face ID components presumably being under
+                  the screen. It also doesn’t really have a camera bump, with the lenses sitting almost flat on the back – a thing that is apparently
+                  achieved by making the phone thicker.</p>
+              </div>
+              <br>
+
+              <div class="newstext">
+                <p>The back is a semi-glossy glass, the volume buttons are shown to be round, and it apparently has titanium sides, in place of stainless steel
+                  on the iPhone 13 Pro Max. You can also see that there’s still a triple-lens camera and a Lightning port.</p>
+              </div>
+              <br>
+
+              <div class="newstext">
+                <p>The colors shown here aren’t official (though the source claims to have seen a rose gold model), and it’s worth also noting that this design
+                  is thought to only apply to the Pro models, with the iPhone 14 (and iPhone 14 Max if there is one) likely to still have a notch. It’s not currently
+                  clear which if any of the other design details here could make it to the standard models.</p>
+              </div>
+              <br>
+              <br>
+              <br>
+              <div class="defaultimgs">
+
+                <img src="news/images/iPhone14_Pro.png" alt="iPhone 14">
+
+              </div>
+              <br>
+              <br>
+
+              <div class="newstext">
+                <p>The colors shown here aren’t official (though the source claims to have seen a rose gold model), and it’s worth also noting that this design
+                  is thought to only apply to the Pro models, with the iPhone 14 (and iPhone 14 Max if there is one) likely to still have a notch. It’s not currently
+                  clear which if any of the other design details here could make it to the standard models.</p>
+              </div>
+              <br>
+
+              <div class="newstext">
+                <p>We would of course take this with a huge helping of salt, especially as it comes from Jon Prosser, who has a mixed track record, and as another
+                  source has said the iPhone 14 Pro range will still have a notch (albeit a smaller one) - possibly as well as a punch-hole.</p>
+              </div>
+              <br>
+
+              <div class="newstext">
+                <p>But Prosser is often right, and both Mark Gurman and Ming-Chi Kuo (two leakers with excellent track records for Apple information) have since
+                  said that the notch will be replaced with a punch-hole camera, as more recently has The Elec.</p>
+              </div>
+              <br>
+
+              <div class="newstext">
+                <p>Another leaker has chimed in to say the same too, though they claim that the camera cut-out will be pill-shaped, suggesting that it might be
+                  bigger than most punch-hole cameras.</p>
+              </div>
+              <br>
+
+              <div class="newstext">
+                <p>Ross Young - a supply-chain expert in the world of smartphone displays - has said he believes the company will adopt a "hole + pill" design of
+                  the iPhone 14 Pro and iPhone 14 Pro Max. That will mean a pill-shaped cutout, as well as a smaller hole that will still be visible – a theory
+                  backed up with a leaked schematic cut out.</p>
+              </div>
+              <br>
+
+              <div class="newstext">
+                <p>More sources have now agreed with this, and leaked CAD renders visible below show this design too, though they don't show the rear camera
+                  changes you can see further up.</p>
+              </div>
+              <br>
+
+              <div class="newstext">
+                <p>In fact, the iPhone 14 Pro and Pro Max might actually have a slightly bigger camera bump than the iPhone 13 Pro range according to leaked
+                  schematics. This is reportedly due to the use of a new 48MP sensor (more on which further down).</p>
+              </div>
+              <br>
+
+              <div class="newstext">
+                <p>All that said, Gurman has said the iPhone 14 range will include “a hole-punch-sized notch”, and it's not clear from that whether he means
+                  a small notch or an actual punch-hole, so there's still some uncertainty about the design.</p>
+              </div>
+              <br>
+
+              <div class="newstext">
+                <p>Elsewhere, we’ve heard that the Pro models could use a titanium alloy for their frame. This would likely be stronger than the materials
+                  used in current models, and this source also claims there will be an iPhone 14 Max in place of an iPhone 14 mini.</p>
+              </div>
+              <br>
+
+              <br>
+              <br>
+              <div class="defaultimgs">
+
+                <img src="news/images/iPhone14_Pro_2.png" alt="iPhone 14">
+
+              </div>
+              <br>
+              <br>
+
+              <div class="rectangle">
+
+              </div>
+            </div>
+
+            <!--Article 5-->
+            <div id="5th">
+              <h1 style="color:#f5f5f7">5th</h1>
+            </div>
+
+            <div class="mainnewspage">
+
+
+              <div class="main">
+                <br>
+                <h4>13-inch MacBook Pro with M2 available</h4>
+                <br>
+                <h4>to order starting Friday, June 17</h4>
+                <br>
+                <p>PRESS RELEASE | June 14, 2022</p>
+                <br>
+                <br>
+                <div class="defaultimgs">
+
+                  <img src="news/images/MacBookPro.png" alt="MacBook">
+                </div>
+                <br>
+                <br>
+                <div class="newstext">
+                  <p>On Friday, June 17, at 5 a.m. PDT, the updated 13-inch MacBook Pro with M2 will be available to
+                    customers to order on apple.com, the Apple Store app, and through Apple Authorized Resellers, and
+                    will start arriving to customers worldwide on Friday, June 24. The 13-inch MacBook Pro is supercharged
+                    by the new M2 chip, which begins the next generation of Apple silicon and takes the breakthrough
+                    capabilities of M1 even further. It features incredible performance, up to 24GB of unified memory,
+                    ProRes acceleration, and up to 20 hours of battery life,1 all in a compact design. The 13-inch MacBook
+                    Pro with M2 joins the even more powerful 14- and 16-inch MacBook Pro with M1 Pro and M1 Max to round
+                    out the strongest MacBook Pro lineup ever. With even more performance and capabilities than before,
+                    the 13-inch MacBook Pro starts at $1,299 and $1,199 for education. </p>
+                </div>
+                <br>
+                <br>
+                <br>
+
+                <h3>Apple’s Most Portable Pro Notebook</h3>
+                <br>
+                <h3>Gets Even Better with M2</h3>
+                <br>
+                <br>
+                <br>
+
+                <div class="newstext">
+                  <p>Users love the compact design of the 13-inch MacBook Pro, and now with M2, it gets even more performance and
+                    capabilities. It features a next-generation 8-core CPU with advancements in both performance and efficiency
+                    cores, along with Apple’s next-generation GPU, which now has up to 10 cores — two more than M1. And with its
+                    active cooling system, MacBook Pro is designed to sustain pro performance for those with more demanding workflows. </p>
+                </div>
+                <br>
+
+                <div class="newstext">
+                  <p>For users working with RAW images in apps like Affinity Photo, the 13-inch MacBook Pro is nearly 40 percent faster
+                    than the previous generation,2 and up to 3.4x faster for users who are upgrading from a model without Apple silicon.3 Playing
+                    graphics-intensive games like Baldur’s Gate 3 is also nearly 40 percent faster than the previous generation,2 and up to 3.3x faster
+                    for customers upgrading from a model without Apple silicon.3</p>
+                </div>
+                <br>
+
+                <div class="newstext">
+                  <p>The 13-inch MacBook Pro with M2 also supports up to 24GB of fast unified memory — along with 50 percent more memory bandwidth — making
+                    multitasking and working with large assets super fluid. Designed to dramatically speed up video workflows, MacBook Pro includes support for
+                    ProRes encode and decode, so users can play back up to 11 streams of 4K and up to two streams of 8K ProRes video.4 Additionally, users can
+                    convert their video projects to ProRes nearly 3x faster than before.2 The 13-inch MacBook Pro with M2 also delivers phenomenal battery life
+                    with up to 20 hours of video playback. With the incredible performance of M2, up to 24GB of memory, ProRes acceleration, and great
+                    battery life, Apple’s most portable pro notebook is better than ever.</p>
+                </div>
+                <br>
+
+                <br>
+                <br>
+                <div class="defaultimgs">
+
+                  <img src="news/images/MacBookPro_1.png" alt="MacBook">
+                </div>
+                <br>
+                <br>
+                <br>
+
+                <h3>Featuring macOS Monterey </h3>
+                <br>
+                <br>
+
+                <div class="newstext">
+                  <p>With macOS Monterey, the 13-inch MacBook Pro includes Continuity tools like Universal Control that make it easy for users to work effortlessly
+                    across Mac and iPad. FaceTime includes Portrait mode and Spatial Audio to make calls feel more natural and lifelike, and SharePlay enables Mac
+                    users to have shared experiences through FaceTime.5 Live Text and Visual Look Up use intelligence to surface useful information, Safari includes
+                    powerful tab organization with Tab Groups, and Shortcuts brings the ease of automation to the Mac.</p>
+                </div>
+                <br>
+
+                <div class="newstext">
+                  <p>Coming this fall, macOS Ventura will take full advantage of M2, delivering new features including Stage Manager, powerful new capabilities
+                    with Continuity Camera, and Handoff coming to FaceTime. macOS Ventura also includes big updates to Safari, Mail, Messages, Spotlight, and more.</p>
+                </div>
+                <br>
+
+                <br>
+                <br>
+                <div class="defaultimgs">
+
+                  <img src="news/images/MacBookPro_2.png" alt="MacBook">
+                </div>
+                <br>
+                <br>
+                <br>
+
+                <h3>Better for the Environment </h3>
+                <br>
+                <br>
+
+                <div class="newstext">
+                  <p>The updated 13-inch MacBook Pro is minimizing its impact on the environment, now using 100 percent recycled rare earth elements in the enclosure
+                    magnets, and 100 percent recycled tin in the solder of the main logic board. The 13-inch MacBook Pro remains free of numerous harmful substances, meets
+                    Apple’s high standards for energy efficiency, and uses wood fiber in the packaging that comes from recycled sources or responsibly managed forests.
+                    Today, Apple is carbon neutral for global corporate operations, and by 2030, plans to have net-zero climate impact across the entire business,
+                    which includes manufacturing supply chains and all product life cycles. This means that every Mac Apple creates, from design to manufacturing,
+                    will be 100 percent carbon neutral.</p>
+                </div>
+
+                <div class="rectangle">
+
+                </div>
+              </div>
+
+              <!--Article 6-->
+              <div id="6th">
+                <h1 style="color:#f5f5f7">6th</h1>
+              </div>
+
+              <div class="mainnewspage">
+
+                <div class="main">
+                  <br>
+                  <br>
+                  <h4>Apple unveils M2, taking the breakthrough</h4>
+                  <br>
+                  <h4>performance and capabilities of M1 even further</h4>
+                  <br>
+                  <h4>to order starting Friday, June 17</h4>
+                  <br>
+                  <br>
+                  <p>PRESS RELEASE | June 6, 2022</p>
+                  <br>
+                  <br>
+                  <div class="defaultimgs">
+
+                    <img src="news/images/M2Chip.png" alt="Apple M2 Chip">
+                  </div>
+                  <br>
+                  <br>
+                  <div class="newstext">
+                    <p>CUPERTINO, CALIFORNIA Apple today announced M2, beginning the next generation of
+                      Apple silicon designed specifically for the Mac. Built using second-generation
+                      5-nanometer technology, M2 takes the industry-leading performance per watt of M1 even
+                      further with an 18 percent faster CPU, a 35 percent more powerful GPU, and a 40 percent
+                      faster Neural Engine.1 It also delivers 50 percent more memory bandwidth compared to
+                      M1, and up to 24GB of fast unified memory. M2 brings all of this — plus new custom
+                      technologies and greater efficiency — to the completely redesigned MacBook Air and
+                      updated 13-inch MacBook Pro. </p>
+                  </div>
+                  <br>
+
+                  <div class="newstext">
+                    <p>“M2 starts the second generation of M-series chips and goes beyond the remarkable features
+                      of M1,” said Johny Srouji, Apple’s senior vice president of Hardware Technologies.
+                      “With our relentless focus on power-efficient performance, M2 delivers a faster CPU, GPU, and
+                      Neural Engine. And along with higher memory bandwidth and new capabilities like ProRes
+                      acceleration, M2 continues the tremendous pace of innovation in Apple silicon for the Mac.”</p>
+                  </div>
+                  <br>
+
+                  <br>
+                  <br>
+                  <div class="defaultimgs">
+
+                    <img src="news/images/M2Chip_1.png" alt="Apple M2 Chip">
+                  </div>
+                  <br>
+                  <br>
+
+                  <div class="newstext">
+                    <p>For users working with RAW images in apps like Affinity Photo, the 13-inch MacBook Pro is
+                      nearly 40 percent faster than the previous generation,2 and up to 3.4x faster for users who are
+                      upgrading from a model without Apple silicon.3 Playing graphics-intensive games like Baldur’s
+                      Gate 3 is also nearly 40 percent faster than the previous generation,2 and up to 3.3x faster for
+                      customers upgrading from a model without Apple silicon.3</p>
+                  </div>
+                  <br>
+                  <br>
+
+                  <h3>More Transistors, More Memory</h3>
+                  <br>
+                  <br>
+
+                  <div class="newstext">
+                    <p>The system-on-a-chip (SoC) design of M2 is built using enhanced, second-generation 5-nanometer
+                      technology, and consists of 20 billion transistors — 25 percent more than M1. The additional
+                      transistors improve features across the entire chip, including the memory controller that delivers
+                      100GB/s of unified memory bandwidth — 50 percent more than M1. And with up to 24GB of fast unified
+                      memory, M2 can handle even larger and more complex workloads.</p>
+                  </div>
+                  <br>
+
+                  <br>
+                  <br>
+                  <div class="defaultimgs">
+
+                    <img src="news/images/M2Chip_2.png" alt="Apple M2 Chip">
+                  </div>
+                  <br>
+                  <br>
+                  <br>
+
+                  <h3>Faster Power-Efficient Performance</h3>
+                  <br>
+                  <br>
+
+                  <div class="newstext">
+                    <p>The new CPU features faster performance cores paired with a larger cache, while the efficiency
+                      cores have been significantly enhanced for even greater performance gains. Together, they deliver
+                      18 percent greater multithreaded performance than M1, so M2 can rip through CPU-intensive tasks
+                      using very little power, like creating music with layers of effects or applying complex filters
+                      to photos.1 Compared with the latest 10-core PC laptop chip, the CPU in M2 provides nearly twice
+                      the performance at the same power level. And, M2 delivers the peak performance of the PC chip while
+                      using just a quarter of the power.2 When compared to the latest 12-core PC laptop chip — which needs
+                      dramatically more power to deliver an increase in performance and is therefore found in thicker, hotter,
+                      more noisy systems with less battery life — M2 provides nearly 90 percent of the peak performance of
+                      the 12-core chip while using just one-fourth the power.3</p>
+                  </div>
+                  <br>
+
+                  <div class="newstext">
+                    <p>Coming this fall, macOS Ventura will take full advantage of M2, delivering new features including Stage Manager, powerful new capabilities
+                      with Continuity Camera, and Handoff coming to FaceTime. macOS Ventura also includes big updates to Safari, Mail, Messages, Spotlight, and more.</p>
+                  </div>
+                  <br>
+
+
+
+                  <br>
+                  <br>
+                  <div class="defaultimgs">
+
+                    <img src="news/images/M2Chip_3.png" alt="Apple M2 Chip">
+                  </div>
+                  <br>
+                  <br>
+                  <br>
+
+                  <div class="rectangle">
+
+                  </div>
+                </div>
+
+                <!--Article 7-->
+                <div id="7th">
+                  <h1 style="color:#f5f5f7">7th</h1>
+                </div>
+
+                <div class="mainnewspage">
+                  <div class="main">
+                    <br>
+                    <br>
+                    <h4>Intel Arc Alchemist GPU can</h4>
+                    <br>
+                    <h4>support five displays...for some reason</h4>
+                    <br>
+                    <br>
+                    <p>PRESS RELEASE | February 16, 2022</p>
+                    <br>
+                    <br>
+                    <div class="defaultimgs">
+
+                      <img src="news/images/Intel_GPU_1.png" alt="Intel ARC GPU">
+                    </div>
+                    <br>
+                    <br>
+                    <div class="newstext">
+                      <p>Where most graphics cards support up to four displays, it seems the upcoming Intel Arc Alchemist
+                        (DG2) GPU is rocking an unusual fifth display port – though not seems to be known about it, or indeed,
+                        what kind of connection it will require to work. The discovery was initially made by Phoronix
+                        (though the report has since been deleted)(opens in new tab) within the notes of a Linux Driver Patch(opens in new tab),
+                        written by Intel engineer Matt Roper. At the start of the patch notes, Roper writes that "DG2 supports a
+                        5th display output, which the hardware refers to as 'TC1,' even though it isn't a Type-C output.
+                        This behaves similarly to the TC1 on past platforms with just a couple of minor differences".</p>
+                    </div>
+                    <br>
+
+                    <div class="newstext">
+                      <p>No additional information is provided within the notes, so it's currently unclear if this will be a
+                        connection that is exclusively compatible with USB-C displays, though as TomsHardware(opens in new tab)
+                        notes in its own report, all of the DG2 prototypes that have been spotted only have the standard four outputs.
+                        It's possible that this mysterious fifth connection could be restricted to a specialist version of the card,
+                        and leaked images shouldn't be wholly trusted prior to a product release.</p>
+                    </div>
+                    <br>
+
+                    <div class="newstext">
+                      <p>Given Roper states that the GPU refers to the port as a TC1 (USB Type C) and mentions it will behave similarly
+                        to older versions of the connection while not actually being a Type-C output, it's unclear if a traditional
+                        USB-C display or dock can actually be used. </p>
+                    </div>
+                    <br>
+
+                    <div class="newstext">
+                      <p>Most modern graphics cards have DisplayPort and HDMI ports, but TC ports are able to route DisplayPort
+                        signals to other connections like Thunderbolt. We have reached out to Intel for some clarification.</p>
+                    </div>
+                    <br>
+
+                    <div class="newstext">
+                      <p>As usual, don't take any of this information as gospel until we get a full announcement and the cards are
+                        released to the public. While it would be cutting things fine, this could easily be an experimental
+                        feature that never leaves testing stages, or as mentioned, be restricted to a small release of
+                        products designed for specialist use.</p>
+                    </div>
+                    <br>
+
+                    <div class="newstext">
+                      <p>We don't yet have a full release date for the Intel graphics card lineup, though an announcement is expected
+                        any day now, as both laptop and desktop GPUs are expected to land on the shelves around April with the
+                        potential for a paper launch in March.</p>
+                    </div>
+
+                    <div class="rectangle">
+
+                    </div>
+                  </div>
+
+
+                  <div class="main">
+                    <br>
+                    <br>
+                    <h4>Intel’s jaw-dropping launch decision means</h4>
+                    <br>
+                    <h4>No Arc desktop GPU for months</h4>
+                    <br>
+                    <p>PRESS RELEASE | May 10, 2022</p>
+                    <br>
+                    <br>
+                    <div class="defaultimgs">
+
+                      <img src="news/images/intelscrewed.png" alt="Intel ARC GPU">
+                    </div>
+                    <br>
+                    <br>
+                    <div class="newstext">
+                      <p>Intel’s desktop Arc GPUs have been the subject of much speculation regarding a potential delay
+                        of their launch, and now we have news from the chip giant itself that the discrete graphics cards
+                        won’t arrive any time soon for regions outside of China.This is disappointing, of course, but not
+                        exactly a surprise given that over the past couple of weeks, it’s been looking more and more likely
+                        that Arc Alchemist desktop products were going to slip going by the rumor mill. What’s really dismaying
+                        here is how far they may have potentially slipped for regions outside of Asia.</p>
+                    </div>
+                    <br>
+
+                    <div class="newstext">
+                      <p>The news came from a blog post(opens in new tab) penned by Lisa Pearce, Vice President and General
+                        Manager for the Visual Compute Group at Intel. Pearce wrote: “We will release our entry-level Intel
+                        Arc A-series products for desktops (A3) first in China through system builders and OEMs in Q2. Etail
+                        and retail component sales will follow shortly in China as well. Proximity to board components and
+                        strong demand for entry-level discrete products makes this a natural place to start. Our next step will
+                        be to scale these products globally.</p>
+                    </div>
+                    <br>
+
+                    <div class="newstext">
+                      <p>“Roll-out of Intel Arc A5 and A7 desktop cards will start worldwide with OEMs and system integrators
+                        later this summer, followed by component sales in worldwide channels.”</p>
+                    </div>
+                    <br>
+
+                    <div class="newstext">
+                      <p>“This staggered approach gives us confidence at each step that we can effectively serve our customer
+                        base.”</p>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+
+                    <h3>Analysis: A substantial delay that</h3>
+                    <br>
+                    <h3>Intel can ill afford</h3>
+                    <br>
+                    <br>
+                    <br>
+
+                    <div class="newstext">
+                      <p>Where does this leave us? It’s pretty bad news regarding an expected timeframe for the arrival of Arc
+                        Alchemist desktop graphics cards in the US and Europe, that much is clear. And indeed where does it leave
+                        Intel? Not in a good place, we’d suggest.</p>
+                    </div>
+                    <br>
+
+                    <div class="newstext">
+                      <p>There’s bound to be some anger and frustration from gamers (outside of China) who are keenly awaiting an
+                        alternative to AMD and Nvidia – along with a surge of even more GPU stock, exerting further downward pressure
+                        on pricing – and who’d been promised a Q2 launch for these discrete Arc GPUs. And yes, Intel again underlined
+                        its commitment to a Q2 launch as recently as just over a week ago.</p>
+                    </div>
+                    <br>
+
+                    <div class="newstext">
+                      <p>The fact is, of course, that Intel will have a Q2 launch, just one that’s solely in Asia, and there was no
+                        mention of such an approach, or a staggering on a regional basis (or a staggering of OEMs then standalone cards,
+                        for that matter).</p>
+                    </div>
+                    <br>
+
+                    <div class="newstext">
+                      <p>There are a few interesting points to highlight in the blog post, including that sentence about ‘proximity to
+                        board components’, with the choice of China apparently being based on production concerns to some extent, then?</p>
+                    </div>
+                    <br>
+
+                    <div class="newstext">
+                      <p>Pearce also says the following as a kind of excuse for the delay: “Unlike notebook designs, desktop systems have a
+                        vast set of combinations, including memory, motherboards, and CPUs. To initially limit some of this variation, we will
+                        launch working with system builders and OEMs with specific configurations.”</p>
+                    </div>
+                    <br>
+
+                    <div class="newstext">
+                      <p>While that’s true enough, it’s not like Intel suddenly realized this, at this point in the Arc desktop development process.
+                        So why all the bluster about a Q2 launch – which was taken as read as being global – always being in the cards if the company
+                        knew the complexities around making the desktop products were continuing to be a thorny problem.</p>
+                    </div>
+                    <br>
+
+                    <div class="newstext">
+                      <p>We – and many others – have speculated for a while now that Intel is needing extra time to nail the drivers, and there’s also a
+                        mention of software issues in the post, albeit relating to sluggish availability of laptop GPUs. Again, the situation with those mobile
+                        Arc graphics cards was that they launched in Q1 (just), but have only been available in Korea thus far – sound familiar? – with
+                        Pearce noting that Intel has “had some software readiness delays” which have contributed to delaying wider global availability of
+                        Arc-powered notebooks (plus Covid lockdowns are in the mix here, too).</p>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+
+                    <h3>Tracing a timeline...</h3>
+                    <br>
+                    <br>
+                    <br>
+
+
+                    <div class="defaultimgs">
+
+                      <img src="news/images/arcgpu.png" alt="Intel ARC GPU">
+                    </div>
+                    <br>
+                    <br>
+
+                    <div class="newstext">
+                      <p>All in all, this is grim-sounding news given how far out Arc Alchemist desktop GPUs look to have been pushed, if we try to trace out a
+                        rough timeline based on what we’re told here (Pearce doesn’t give any dates at all, save that Q2 availability will happen, just in China).</p>
+                    </div>
+                    <br>
+                    <br>
+
+                    <div class="newstext">
+                      <p>So, while the discrete Arc GPUs will be out in China from Q2 onwards, presumably late June, they will just be supplied to OEMs, meaning the
+                        cards will only be purchased as part of a prebuilt PC. Retail sales of standalone graphics cards will “follow shortly”, so let’s say that’ll
+                        be late July (or maybe early August).</p>
+                    </div>
+                    <br>
+
+                    <div class="newstext">
+                      <p>The next step will be the rollout of Intel Arc A5 and A7 desktop GPUs worldwide, but only to OEMs, and that will happen “later this summer” –
+                        so late August, we can guess, is when these first Alchemist offerings will be available in the US and Europe (presumably).</p>
+                    </div>
+                    <br>
+
+                    <div class="newstext">
+                      <p>And that’ll be “followed by component sales in worldwide channels”, and we note that there’s no mention of ‘shortly’ or ‘soon’ here, which
+                        seems to suggest there could be a little bit of a wait after the launch of Arc GPUs in prebuilt desktops. If the latter is happening late in August,
+                        then, we can guess September would be labeled as ‘soon’, so we’re most likely looking at October as a best-case scenario of standalone Arc GPUs
+                        actually being on shelves outside of Asia. Potentially, things could slip even further than that…</p>
+                    </div>
+                    <br>
+
+                    <div class="newstext">
+                      <p>Even if Intel doesn’t suffer any further issues and hits this October release, there’s a big problem with discrete Arc Alchemist coming that late
+                        in the year – AMD and Nvidia have next-gen GPUs which are also due around that time.</p>
+                    </div>
+                    <br>
+
+                    <div class="newstext">
+                      <p>This means that Intel’s Arc products will be going up against RTX 4000 and RDNA 3 graphics cards, most likely – these ranges are rumored for Q3, or early Q4,
+                        so September or October time – and both are expected to make some serious performance leaps. (Nvidia is purportedly ramping up frame rates massively, admittedly
+                        with equally big power demands in theory, and AMD is rumored to be running with an all-new MCM or multi-chip module design, a radical change which could
+                        have huge benefits for its higher-end models).</p>
+                    </div>
+                    <br>
+
+                    <div class="newstext">
+                      <p>To sum up the situation in a nutshell, this means the Intel Arc desktop flagship – which might be one of the later models to arrive in the Alchemist line-up
+                        anyway, or so we’ve heard – is currently rumored to trade blows with Nvidia’s RTX 3070 Ti, and so it might end up squaring off against more like the RTX
+                        4060, which, er, isn’t a good look for Team Blue (in terms of flagship equals mid-range).</p>
+                    </div>
+                    <br>
+
+                    <div class="newstext">
+                      <p>Surely, if that’s the case, pricing will then become the only viable way Intel can attack the market, particularly considering it’s looking like GPU availability
+                        issues are easing already – meaning prices are normalizing – and inventory issues could have largely evaporated completely as we roll towards the end of 2022
+                        (so gamers won’t be scrabbling for any vaguely palatable stock they can get their hands on in certain price segments).</p>
+                    </div>
+                    <br>
+
+                    <div class="newstext">
+                      <p>And if this scenario plays out, will Intel be willing to go for the throat with some truly bargain-basement price tags? Well, sadly, the buzz on the
+                        grapevine thus far doesn’t seem to suggest that’s the case…</p>
+                    </div>
+                    <br>
+
+                    <div class="rectangle">
+
+                    </div>
+                  </div>
+
+
+                  <!--Article 8-->
+                  <div id="8th">
+                    <h1 style="color:#f5f5f7">8th</h1>
+                  </div>
+                  <div class="mainnewspage">
+
+
+                    <div class="main">
+                      <br>
+                      <br>
+                      <h5>Best Dell laptop deals for June 2022</h4>
+                        <br>
+                        <p>PRESS RELEASE | June 2, 2022</p>
+                        <br>
+                        <br>
+                        <div class="defaultimgs">
+
+                          <img src="news/images/dellgaminglaptop.jpeg" alt="DELL Laptops">
+                        </div>
+                        <div class="newstext">
+                          <p>If you’ve been using computers long enough to remember the home PC revolution decades ago,
+                            then you know that Dell played a leading rol (and you also probably recall Dell’s now-famous
+                            TV ad campaigns). Age hasn’t slowed the brand down a bit, however, and in 2022, Dell is still
+                            busy rolling out many of the best laptops that money can buy. Whether you need a machine for
+                            work, gaming, or just general everyday use, Dell has a laptop with your name on it, and we’re
+                            here to help you find it at a price you’re willing to pay. Here, we’ve rounded up all the best
+                            Dell laptop deals available this month.</p>
+                        </div>
+                        <br>
+                        <br>
+                        <h5>Dell Inspiron 15 3000 — $225, was $300</h5>
+                        <br>
+                        <br>
+                        <br>
+
+                        <div class="defaultimgs">
+
+                          <img src="news/images/Laptop_1.png" alt="DELL Laptops">
+                        </div>
+                        <br>
+                        <br>
+                        <div class="newstext">
+                          <p>The great thing about being one of the best laptop brands is that Dell knows how to deliver the
+                            best value you’ll find in a portable PC. In the case of the Dell Inspiron 15 3000, it’s easily one
+                            of the best Dell laptops for anyone on a tight budget. It offers all the essentials while still
+                            looking sharp. At its heart is an Intel processor along with 4GB of memory and a 128GB solid-state
+                            drive. That might be on the basic side, but it’s a great deal at this price. It offers a good amount
+                            of value with sufficient power and storage space for your most important files. Alongside that is a
+                            great screen for the price. It has a 15.6-inch HD display with a refresh rate of 60Hz. It also has
+                            nice narrow bezels so you get a sleeker look and less bulk, plus it has an anti-glare finish so it’s
+                            easier on your eyes.</p>
+                        </div>
+                        <br>
+
+                        <div class="newstext">
+                          <p>The Dell Inspiron 15 3000 isn’t just about the obvious hardware features though. For instance, its
+                            keyboard is surprisingly great. The laptop has a numeric keypad, 6.4% larger keycaps than previous models,
+                            and a spacious touchpad so you can get plenty done on it without the hassle that can come from smaller or less
+                            well-designed laptops. There’s also the inclusion of Dell Comfort View Low Blue Light Software, which reduces
+                            harmful blue light emissions and optimizes your eye comfort even when you’ve been using it for a long period of time.
+                            For the environmentally conscious, the laptop also uses post-consumer recycled plastics to make it more sustainable with
+                            all painted parts using low VOC waterborne paint. Even the packaging is made from 100% recycled paper.</p>
+                        </div>
+                        <br>
+
+                        <br>
+                        <br>
+                        <h5>Dell G15 RTX 3050 Ti Gaming Laptop — $800, was $1,000</h5>
+                        <br>
+                        <br>
+                        <br>
+                        <div class="defaultimgs">
+
+                          <img src="news/images/Laptop_2.png" alt="DELL Laptops">
+                        </div>
+                        <br>
+                        <br>
+
+                        <div class="newstext">
+                          <p>Offering many of the features you’d expect to see on the best gaming laptops, the Dell G15 is a great budget-priced
+                            gaming system. It has an AMD Ryzen 7 processor powering the show, along with 8GB of memory and a 512GB SSD. That’s a nice
+                            upgrade from your typical 128GB-256GB hard drives, and should provide ample space to install the games you’re playing along
+                            with some of your all-time favorites you can’t live without. Alongside all that is an Nvidia GeForce RTX 3050 Ti graphics
+                            card which is great for playing the latest titles at good settings, and is an excellent GPU to see at this price point.</p>
+                        </div>
+                        <br>
+
+                        <div class="newstext">
+                          <p>Another highlight of the Dell G15 is its screen. It has a 15.6-inch full HD display with an impressive refresh rate of 120Hz.
+                            That means that action is silky smooth even when the game you’re playing gets fairly fast-paced. It also offers 250 nits of brightness
+                            along with narrow borders so it looks great and isn’t too chunky, even for a gaming machine. Anti-glare functionality and Dell’s Comfort
+                            View Plus software ensures that eyestrain is a thing of the past, too, even if you end up playing for hours
+                            on end (which we know you will).</p>
+                        </div>
+                        <br>
+
+                        <div class="newstext">
+                          <p>The Dell G15 is also intelligently designed when it comes to cooling. Its dual-fan thermal system uses copper piping to dissipate heat
+                            meaning your laptop can cope with some heavy-duty gaming. Game Shift technology can trigger a dynamic performance mode too, maximizing
+                            the fans’ speed to keep your system cool at all times. Other features include dual speakers with 3D audio and the Alienware
+                            Command Center app for plenty of additional functionality. It’s a great way of gaining many of the benefits of
+                            Alienware technology without paying the same premium.</p>
+                        </div>
+                        <br>
+
+                        <br>
+                        <br>
+                        <h4>Dell XPS 13 Laptop — $882</h4>
+                        <br>
+                        <h4>with code 50OFF699, was $1,419</h4>
+                        <br>
+                        <br>
+                        <br>
+
+                        <br>
+                        <br>
+                        <div class="defaultimgs">
+
+                          <img src="news/images/Laptop_3.png" alt="DELL Laptops">
+                        </div>
+                        <br>
+                        <br>
+
+                        <div class="newstext">
+                          <p>The Dell XPS 13 is easily one of the best laptops out there right now, and this model adds the joy of touchscreen functionality. If you’re looking
+                            for a great system for working on the move while enjoying great looks and a lightweight build, you need the Dell XPS 13. It has an 11th-generation
+                            Intel Core i7 processor along with 16GB of RAM, plus 512GB of solid-state storage. That’s all you need to get stuff done on the go, whether you’re
+                            writing up documents or creating presentations. The true highlight, though, is its display.</p>
+                        </div>
+
+                        <div class="newstext">
+                          <p>The display is a 13.3-inch 1080p screen which is the perfect size for working on the go, but doesn’t feel small thanks to that edge-to-edge design.
+                            InfinityEdge technology means that there are basically no bezels to look at, ensuring this is a super sleek interface that won’t leave you staring at
+                            ugly screen borders or carrying around unnecessary bulk. Intel Iris Xe integrated graphics even allow for some entertainment, such as a little
+                            light gaming, as well.</p>
+                        </div>
+
+                        <div class="newstext">
+                          <p>The Dell XPS 13 manages to squeeze that 13.3-inch screen into an 11-inch form factor with an 80.7% screen-to-body ratio. That means it’s far lighter
+                            to carry around while still offering plenty of power. It has 100% sRGB color and a 1500:1 contrast ratio with even the darkest and brightest of scenes
+                            being crystal clear. 400 nits of brightness means it works just as well outdoors with a wide viewing angle helping you see more. its great built-in
+                            webcam is smaller than that of previous models while offering sharper video, plus you get a keyboard that feels great under your fingertips. Everything
+                            about the Dell XPS 13 laptop oozes quality and class.</p>
+                        </div>
+
+                        <br>
+                        <br>
+                        <h5>Dell XPS 15 3.5K Touch Laptop</h5>
+                        <br>
+                        <h5>— $1,715 with code 50OFF699, was $2,300</h5>
+                        <br>
+                        <br>
+
+
+                        <br>
+                        <br>
+                        <br>
+                        <div class="defaultimgs">
+
+                          <img src="news/images/Laptop_4.png" alt="DELL Laptops">
+                        </div>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+
+                        <div class="newstext">
+                          <p>The Dell XPS 15 Touch laptop is a fantastic example of the high-end experience that the XPS range offers. It looks gorgeous and performs phenomenally.
+                            It has an 11th-generation Intel Core i7 processor, which gives you plenty of juice for heavy workloads. Alongside that is a huge 16GB of memory, which is
+                            double the amount you typically see on laptops. There’s also a 512GB SSD so you can store all your apps and files here without worrying about running out
+                            of space too soon. This Dell XPS 15 model even tosses in a dedicated graphics card in the form of the Nvidia GeForce RTX 3050 Ti. If you’re keen to get
+                            some gaming in after a long day of work, this laptop can do both, and it’s more than capable of letting you play newer games without a hitch.</p>
+                        </div>
+                        <br>
+
+                        <div class="newstext">
+                          <p>The Dell XPS 15 laptop’s experience is further enhanced by its display. It has a 15.6-inch 3.5K OLED touchscreen with anti-glare properties along with
+                            400 nits of brightness. Best of all is its InfinityEdge technology which means that you don’t have much of a border or bezel to stare at while you work.
+                            Other great features include HDR support with Dolby Vision, so you get dark colors up to 10 times deeper and light colors up to 40 times brighter, which
+                            is ideal when gaming and streaming your entertainment.</p>
+                        </div>
+                        <br>
+
+                        <div class="newstext">
+                          <p>It’s all supported by Eyesafe software, too, so harmful blue light is minimized. The laptop is able to intelligently manage light energy at the source,
+                            dispersing blue light across the light spectrum. With a smarter thermal design, the Dell XPS 15 stays cooler for longer all while containing its power in
+                            the thinnest form factor possible. Elegant yet powerful, the Dell XPS 15 laptop could be the ultimate do-it-all workhorse.</p>
+                        </div>
+
+                        <div class="rectangle">
+
+                        </div>
+                    </div>
 
 </body>
 

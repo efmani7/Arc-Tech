@@ -32,8 +32,7 @@ header{
   margin: 0;
   position: fixed;
   width: 100%;
-    z-index: 9999;
-
+z-index: 9999;
 }
 
 
@@ -42,13 +41,13 @@ nav{
   height: 50px;
   background-color: #2f2f2f;
   align: center;
-  z-index: 9999;
+
 
 }
 
 nav ul {
-    margin-left: 10%;
-  z-index: 9999;
+    margin-left: 4%;
+
 }
 
 nav ul li{
@@ -81,19 +80,27 @@ nav ul li a:hover{
    border-radius:5px;
    cursor: pointer;
    float: right;
-   margin-right: 10%;
+   margin-right: 5%;
    margin-top:10px;
    border:2px solid #202020;
    color:#9e9e9e;
    background-color: rgba(47, 47, 47, 1);
-  z-index: 9999;
+
 }
 
 .menu button:hover {
   color:#fff;
 }
 
-              /*END OF NAV BAR STYLING*/
+  /*END OF NAV BAR STYLING*/
+
+
+
+
+
+
+
+
 
 /*START OF HOME PAGE STYLING*/
 
@@ -210,6 +217,20 @@ div .endimg img{
   color:#000;
   text-decoration: underline;
 }
+/*END OF HOME PAGE STYLING*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*START OF PRODUCTS PAGE STYLING*/
 
 div .defaultmain{
   width:100%;
@@ -233,7 +254,7 @@ div .defaultmain{
     list-style: none;
     width:32%;
     height:auto;
-    margin-left: 16%;
+    margin-left: 17%;
     margin-bottom:5%;
     margin-top: 5%;
     box-sizing: border-box;
@@ -247,7 +268,9 @@ div .defaultmain{
   object-fit: cover;
   border-radius: 20px;
 }
-
+.defaultmain ul li .productad img:hover{
+  box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.1);
+}
 .defaultmain ul li .productad{
     width: 60%;
     height:auto;
@@ -255,9 +278,11 @@ div .defaultmain{
     text-align: center;
     color:#202020;
     font-size: 20px;
-
 }
-
+.defaultmain ul li .productad:hover{
+  transform: scale(1.03);
+  transition:2s;
+}
 .defaultmain ul li .productad a{
   font-size:1.5em;
   color: #5c677d;
@@ -267,12 +292,10 @@ div .defaultmain{
 .defaultmain ul li .productad a:hover{
   color:#202020;
   text-decoration: underline;
+
 }
 
-/*END OF HOME PAGE STYLING*/
 
-
-/*START OF PRODUCTS PAGE STYLING*/
 
 div .productscard img{
   width: 80%;
@@ -280,10 +303,10 @@ div .productscard img{
   object-fit: cover;
   border-top-left-radius: 20px ;
   border-top-right-radius: 20px;
-
 }
 
 .productsbody ul li .productscard{
+  background-color: #fff;
     float: left;
     width: 25%;
     margin-left: 6.5%;
@@ -293,11 +316,10 @@ div .productscard img{
     text-align: center;
     color:#202020;
     font-size: 20px;
-    box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.1);
     border-radius: 20px;
     overflow:hidden;
     text-overflow: ellipsis;
-
 }
 
 .productsbody ul li .productscard h1{
@@ -316,21 +338,35 @@ div .productscard p{
 }
 
 
-.productscard:hover{
-  transform: scale(1.1);
-  transition:1s;
-
+ul li .productscard:hover{
+  box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.3);
+  transition: 1s;
 }
 
 .productsbody ul li .productscard a{
   font-size:1.5em;
+  color:#5c677d;
 }
 
 
 .productsbody ul li .productscard a:hover{
   color:#202020;
 }
+
+.productsbody{
+object-fit: contain;
+
+}
 /*END OF PRODUCTS PAGE STYLING*/
+
+
+
+
+
+
+
+
+
 
 
 /*START OF IPHONE PAGE STYLING*/
@@ -364,7 +400,7 @@ div .bodyforphones{
   background-color: #f6f6f8;
   float: left;
   border-radius: 20px;
-  box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.3);
+  box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.3);
 }
 
 .bodyforphones .itabtopr{
@@ -374,7 +410,7 @@ div .bodyforphones{
   background-color: #f6f6f8;
   float: right;
   border-radius: 20px;
-  box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.3);
+  box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.3);
 }
 
 .bodyforphones .itabtopr h1{
@@ -427,7 +463,7 @@ div .camtext{
   background-color: ##f6f6f8;
   float: left;
   border-radius: 20px;
-  box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.3);
+  box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.3);
 }
 
 .bodyforphones .itabbottomr{
@@ -438,7 +474,7 @@ div .camtext{
   background-color: #f6f6f8;
   float:left;
   border-radius: 20px;
-  box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.3);
+  box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.3);
 }
 
 .bodyforphones .itabtopl img{
@@ -585,6 +621,8 @@ div .camtext{
   cursor: pointer;
 }
 
+
+
 /* SPECS*/
 .specs13{
   width: 90%;
@@ -630,6 +668,13 @@ margin-bottom: -70%;
   height: auto;
 
 }
+
+
+
+
+
+
+
 /*13 PRO*/
 .bodyforphones .itabtoplpro{
   width: 35%;
@@ -895,6 +940,14 @@ div .camtext{
 
 
 
+
+
+
+
+
+
+
+
 /* START OF SAMSUNG PHONES STYLING*/
 
 .bodyforphones .itabtopls22{
@@ -904,7 +957,7 @@ div .camtext{
   background-color: #f6f6f8;
   float: left;
   border-radius: 20px;
-  box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.3);
+  box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.3);
 }
 
 .bodyforphones .itabtoprs22{
@@ -914,7 +967,7 @@ div .camtext{
   background-color: #f6f6f8;
   float: right;
   border-radius: 20px;
-  box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.3);
+  box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.3);
 }
 
 .bodyforphones .itabtoprs22 h1{
@@ -967,7 +1020,7 @@ div .camtexts22{
   background-color: ##f6f6f8;
   float: left;
   border-radius: 20px;
-  box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.3);
+  box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.3);
 }
 
 .bodyforphones .itabbottomrs22{
@@ -978,7 +1031,7 @@ div .camtexts22{
   background-color: #f6f6f8;
   float:left;
   border-radius: 20px;
-  box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.3);
+  box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.3);
 }
 
 .bodyforphones .itabtopls22 img{
@@ -1164,6 +1217,10 @@ margin-bottom: -70%;
   margin-left: -6%;
   line-height: 1.12em;
 }
+
+
+
+
 /*ULTRA*/
 
 
@@ -1427,6 +1484,19 @@ margin-top: -8%;
 
 /*END OF SAMSUNG PHONES STYLING*/
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*START OF APPLE WATCHES PAGE STYLING*/
 
 .openingbox{
@@ -1485,13 +1555,13 @@ div .watchcard img{
     width: 20%;
     margin-left: 2%;
     margin-right: 2%;
-    margin-top:-5%;
+    margin-top:-12%;
     height:auto;
     line-height: 50px;
     text-align: center;
     color:#202020;
     font-size: 20px;
-    box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.2);
     border-radius: 20px;
     overflow:hidden;
     text-overflow: ellipsis;
@@ -1522,9 +1592,10 @@ div .watchcard img{
 }
 
 .watchbody ul li .watchcard:hover{
-    box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.4);
-    transform: scale(1.1);
-    transition:1s;
+    box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.5);
+      transition: 1s;
+      transform: scale(1.03);
+      transition:2s;
 }
 
 .watchbody ul li .watchcard a:hover{
@@ -1550,7 +1621,7 @@ div .widecard img{
   width: 72%;
   height:auto;
   margin-left: 2%;
-  margin-bottom:-10%;
+  margin-bottom:1%;
   text-align: center;
   color:#202020;
   font-size: 20px;
@@ -1559,7 +1630,7 @@ div .widecard img{
 
 .widecard:hover{
   transform: scale(1.03);
-  transition:1s;
+  transition:2s;
 }
 /*WATCH CARD ELEMENTS SIDE*/
 .watchbody ul li .watchcardside{
@@ -1594,11 +1665,27 @@ div .endwatchimg img{
   height: auto;
   margin-top: 5%;
 }
+
+.producthead h1{
+  margin-bottom: 20%;
+}
 /*END OF APPLE WATCHES PAGE STYLING*/
 
- .producthead h1{
-  margin-bottom: 10%;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*AIRPODS STYLING */
 
 div .airpodsbody{
@@ -1608,7 +1695,7 @@ div .airpodsbody{
 }
 
 div .mainpod{
-  width: 35%;
+  width: 30%;
   height: auto;
   margin-top:5%;
   margin-bottom:5%;
@@ -1631,7 +1718,7 @@ div .mainpod{
 }
 
 div .verticalpodsbox{
-  width: 35%;
+  width: 30%;
   height: auto;
   margin-left: 16%;
   margin-bottom: -53.5%;
@@ -1642,13 +1729,14 @@ div .verticalpodsbox{
   height: auto;
   object-fit: cover;
   border-radius: 20px;
-  box-shadow: 0px 0px 10px 1px rgba(0,0,3,0.2);
+
 }
 
 div .podssquarebox{
-  width: 26.5%;
+  width: 20%;
   height: auto;
   margin-left: 56%;
+
 
 }
 
@@ -1716,7 +1804,7 @@ div .endpod{
   width:80%;
   height: auto;
   margin-left: 10%;
-  margin-top:-10%;
+  margin-top:-9%;
   margin-bottom: 5%;
 }
 
@@ -1725,6 +1813,22 @@ div .galaxypods{
 
 }
 /*AIRPODS STYLING END*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1762,12 +1866,17 @@ div .newscard img:hover{
 
 .newsbody ul li .newscard a{
   font-size:1.5em;
+  color: #5c677d;
 }
 
 
 .newsbody ul li .newscard a:hover{
   color:#202020;
 }
+/*END NEWS STYLING*/
+
+
+
 
 .rectangle{
   width: 40%;
