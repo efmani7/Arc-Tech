@@ -17,30 +17,47 @@
   <title>Arc Tech</title>
 
   <style>
+    
   </style>
 </head>
 
 <body>
   <!--nav bar-->
-  <header>
 
-    <nav class="menu">
-      <ul>
-        <li> <a href="index.html">Home</a></li>
-        <li><a href="products.html"> Products</a></li>
-        <li> <a href="iphone13s.html"> iPhones</a> </li>
-        <li> <a href="samsung.html"> Samsung</a> </li>
-        <li> <a href="applewatches.html"> Apple Watches</a> </li>
-        <li> <a href="galaxywatches.html"> Galaxy Watches</a> </li>
-        <li> <a href="airpods.html"> Air Pods</a> </li>
-        <li> <a href="tablets.html"> Tablets</a> </li>
-        <li> <a href="accessories.html"> accessories</a> </li>
-        <li> <a href="news.html">News</a> </li>
-        <li> <a href="contact.html">Contact</a> </li>
-      </ul>
-      <a class="user" href="#"></a> <button>Login</button>
-    </nav>
-  </header>
+  <div class="topnav" id="myTopnav">
+    <a href="index.html">Home</a></li>
+   <a href="products.html"> Products</a>
+   <a href="contact.html">Contact</a>
+   <a >
+   <select name="Phones" id="navoption" onchange="navigate(this)">
+    <option  style="display: none;" value="default"> Phones</option>
+    <option value="iphone13s.html"><a> iPhones</a></option>
+    <option value="samsung.html"><a> Samsung</a></option>
+   </select> 
+  </a>
+  <a >
+   <select name="Watches" id="navoption" onchange="navigate(this)">
+    <option  style="display: none;" value="default">Smart Watches</option>
+    <option value="applewatches.html"><a > Apple Watches</a></option>
+    <option value="galaxywatches.html"><a> Galaxy Watches</a> </option>
+   </select> 
+  </a>
+<a >
+   <select name="Accessories" id="navoption" onchange="navigate(this)">
+    <option  style="display: none;" value="default"> Accessories</option>
+    <option value="airpods.html"><a > Air Pods</a></option>
+    <option value="accessories.html"><a > Chargers</a> </option>
+   </select> 
+  </a>
+   <a href="tablets.html"> Tablets</a>
+   <a href="news.html">News</a>
+   <a href="contact.html">Contact</a>
+   <a class="user" href="#"> Login</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+ 
   <br>
   <br>
   <br>
@@ -87,7 +104,7 @@
           <a class="underline" href="iphone13s.html#13proseries"> Learn more> </a>
         </div>
       </li>
-
+   
       <li>
         <div class="productscard">
           <a href="iphone13s.html#13proseries">
@@ -115,7 +132,7 @@
           <a class="underline" href="applewatches.html"> Learn more> </a>
         </div>
       </li>
-
+     
       <li>
         <div class="productscard">
           <a href="airpods.html">
@@ -143,13 +160,13 @@
           <a class="underline" href="Tablets.html"> Learn more> </a>
         </div>
       </li>
-
+ 
       <li>
         <div class="productscard">
           <a href="https://www.apple.com/studio-display/specs/" target="_blank">
             <img src="apple/general/studiodis.png" alt="">
             <h1> Apple Studio Display </h1>
-            <p>12MP Ultra Wide camera with Center Stage</p>
+            <p>12MP Ultra Wide camera </p>
             <div class="price">
               <p>$1594.28</p>
             </div>
@@ -172,13 +189,13 @@
             Incoming> </a>
         </div>
       </li>
-
+    
       <li>
         <div class="productscard">
           <a href="accessories.html">
             <img src="apple/accessories/chargerp.png" alt="">
-            <h1> Lightening Cable </h1>
-            <p>Lightening fast charging, for people on the go</p>
+            <h1> Apple Cable </h1>
+            <p>Lightening fast charging</p>
             <div class="price">
               <p>$29.52</p>
             </div>
@@ -193,7 +210,7 @@
     <!--APPLE PRODUCTS END-->
 
     <!--SAMSUNG PRODUCTS START-->
-    <h1 style="font-family:'Samsung Sharp Sans Bold',SF Pro Display ">Samsung Galaxy</h1>
+    
     <br>
     <br>
     <br>
@@ -228,13 +245,13 @@
           <a class="underline" href="samsung.html"> Learn more> </a>
         </div>
       </li>
-
+  
       <li>
         <div class="productscard">
           <a href="samsung.html#ultra">
             <img src="samsung/phones/s22ultraback.png" alt="">
-            <h1> Samsung S22 Ultra </h1>
-            <p>The first Galaxy S with built-in S Pen</p>
+            <h1> Samsung S22 U</h1>
+            <p>The first Galaxy S with S Pen</p>
             <div class="price">
               <p>$1358.09</p>
             </div>
@@ -256,7 +273,7 @@
           <a class="underline" href="galaxywatches.html"> Learn more> </a>
         </div>
       </li>
-
+    
       <li>
         <div class="productscard">
           <a href="airpods.html#galaxbuds">
@@ -291,6 +308,24 @@
   <br>
   <br>
   <br>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    
+    function navigate(selectElement) {
+      var selectedOption = selectElement.value;
+      if (selectedOption !== 'default') {
+        window.location.href = selectedOption;
+      }
+    }
+    </script>
 </body>
 
 </html>

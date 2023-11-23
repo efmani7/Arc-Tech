@@ -142,19 +142,40 @@
 
 <body>
   <!--nav bar-->
-  <header>
-
-    <nav class="menu">
-      <ul>
-        <li> <a href="index.html">Home</a></li>
-        <li><a href="products.html"> Products</a></li>
-        <li> <a href="news.html">News</a> </li>
-        <li> <a href="newsinfo.html">News Articles</a> </li>
-        <li> <a href="contact.html">Contact</a> </li>
-      </ul>
-      <a id="1st" class="user" href="#"></a> <button>Login</button>
-    </nav>
-  </header>
+  
+ <div class="topnav" id="myTopnav">
+  <a href="index.html">Home</a></li>
+ <a href="products.html"> Products</a>
+ <a href="contact.html">Contact</a>
+ <a >
+ <select name="Phones" id="navoption" onchange="navigate(this)">
+  <option  style="display: none;" value="default"> Phones</option>
+  <option value="iphone13s.html"><a> iPhones</a></option>
+  <option value="samsung.html"><a> Samsung</a></option>
+ </select> 
+</a>
+<a >
+ <select name="Watches" id="navoption" onchange="navigate(this)">
+  <option  style="display: none;" value="default">Smart Watches</option>
+  <option value="applewatches.html"><a > Apple Watches</a></option>
+  <option value="galaxywatches.html"><a> Galaxy Watches</a> </option>
+ </select> 
+</a>
+<a >
+ <select name="Accessories" id="navoption" onchange="navigate(this)">
+  <option  style="display: none;" value="default"> Accessories</option>
+  <option value="airpods.html"><a > Air Pods</a></option>
+  <option value="accessories.html"><a > Chargers</a> </option>
+ </select> 
+</a>
+ <a href="tablets.html"> Tablets</a>
+ <a href="news.html">News</a>
+ <a href="contact.html">Contact</a>
+ <a class="user" href="#"> Login</a>
+<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+  <i class="fa fa-bars"></i>
+</a>
+</div>
   <br>
   <br>
   <br>
@@ -1736,7 +1757,23 @@
 
                         </div>
                     </div>
-
+                    <script>
+                      function myFunction() {
+                        var x = document.getElementById("myTopnav");
+                        if (x.className === "topnav") {
+                          x.className += " responsive";
+                        } else {
+                          x.className = "topnav";
+                        }
+                      }
+                      
+                      function navigate(selectElement) {
+                        var selectedOption = selectElement.value;
+                        if (selectedOption !== 'default') {
+                          window.location.href = selectedOption;
+                        }
+                      }
+                      </script>
 </body>
 
 </html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="http://fonts.cdnfonts.com/css/sf-pro-display?styles=98774,98773,98775,98770" rel="stylesheet">
+  <link rel="icon" type="images/x-icon" href="logoarc.svg">
+  <link href="//db.onlinewebfonts.com/c/03fe5644d1605049951f58ca7961c33f?family=Samsung+Sharp+Sans+Bold" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="style.css">
+
+  <title>Arc Tech</title>
+
+  <style>
+    body {
+      background-color: #202020;
+    }
+
+    .productsbody {
+      padding: 20px;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+
+    .productscard {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: aliceblue;
+    height: 5vh;
+    box-sizing: border-box; /* Add this line to include padding in height calculation */
+  }
+
+  .productscard img {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+
+    .productscard img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .price {
+      margin-top: 10px;
+    }
+
+    .underline {
+      display: block;
+      margin-top: 10px;
+      color: blue;
+    }
+
+    /* Media queries for responsiveness */
+    @media screen and (min-width: 600px) {
+      .productscard {
+        width: 48%;
+        margin-right: 2%;
+      }
+    }
+
+    @media screen and (min-width: 768px) {
+      .productscard {
+        width: 31%;
+        margin-right: 2%;
+      }
+    }
+
+    @media screen and (min-width: 992px) {
+      .productscard {
+        width: 23.5%;
+        margin-right: 1%;
+      }
+    }
+
+    @media screen and (min-width: 1200px) {
+      .productscard {
+        width: 19%;
+        margin-right: 1%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="topnav" id="myTopnav">
+    
+  </div>
+
+  <div class="productsbody">
+    <ul>
+
+
+      <li>
+        <div class="productscard">
+          <a href="iphone13s.html">
+            <img src="apple/phones/13greenback.png" alt="">
+            <h1> iPhone 13 </h1>
+            <p>Super Retina XDR display for vivid colors</p>
+            <div class="price">
+              <p>$1018.57</p>
+            </div>
+          </a>
+          <a class="underline" href="iphone13s.html"> Learn more> </a>
+        </div>
+      </li>
+      <li>
+        <div class="productscard">
+          <a href="iphone13s.html">
+            <img src="apple/phones/13greenback.png" alt="">
+            <h1> iPhone 13 </h1>
+            <p>Super Retina XDR display for vivid colors</p>
+            <div class="price">
+              <p>$1018.57</p>
+            </div>
+          </a>
+          <a class="underline" href="iphone13s.html"> Learn more> </a>
+        </div>
+      </li>
+      <li>
+        <div class="productscard">
+          <a href="iphone13s.html">
+            <img src="apple/phones/13greenback.png" alt="">
+            <h1> iPhone 13 </h1>
+            <p>Super Retina XDR display for vivid colors</p>
+            <div class="price">
+              <p>$1018.57</p>
+            </div>
+          </a>
+          <a class="underline" href="iphone13s.html"> Learn more> </a>
+        </div>
+      </li>
+      </ul>
+  </div>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+</body>
+
+</html>
