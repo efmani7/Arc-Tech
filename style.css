@@ -2202,7 +2202,7 @@ div .mainpod{
   width: 100%;
   height: auto;
   object-fit: cover;
-  border-radius: 20px;
+  border-radius:10%;
 }
 
 div .verticalpodsbox{
@@ -2246,10 +2246,9 @@ div .podscontainer{
 }
 
 
-.podscontainer ul li .podscard{
+.podscontainer ul li #podscard{
     float: left;
-    width: 25%;
-    height:auto;
+    width: 25%; 
     text-align: center;
     color:#202020;
     border-radius:5%;
@@ -2259,8 +2258,8 @@ div .podscontainer{
 
 }
 
-div .podscard img{
-  width: 80%;
+div #podscard img{
+  width: 100%;
   height: auto;
   object-fit: cover;
   border-top-left-radius: 10%;
@@ -2268,40 +2267,105 @@ div .podscard img{
 }
 
 
-.podscontainer ul li .podscard h1{
+.podscontainer ul li #podscard h1{
   line-height:3vh;
-  font-size:2vw;
+  font-size:3.2vw;
   margin-bottom: 12%;
 }
-.podscontainer ul li .podscard h2{
+.podscontainer ul li #podscard h2{
   line-height:3vh;
-  font-size:2vw;
-  
+  font-size:3vw;
+
 }
 
-.podscard p{
-  line-height:3vh;
-  font-size:2vw;
-  margin-bottom: 4%;
+#podscard p{
+  line-height:2vh;
+  font-size:3.2vw;
+  margin-bottom:10%;
+  height:265px;
+  text-align: left;
 }
 
 div .endpod{
   width: 100%;
-  height:auto;
+ 
 }
 
 .endpod .endpodimg img{
   width:80%;
   height: auto;
   margin-left: 10%;
-  margin-top:-9%;
+  margin-top:9%;
   margin-bottom: 5%;
 }
 
-div .galaxypods{
-  margin-top: 55%;
-
+@media screen and (max-width: 2500px) {
+  
 }
+
+@media screen and (max-width: 1500px) {
+  .podscontainer ul li #podscard h1{
+    line-height:3vh;
+    font-size:3.5vw;
+    margin-bottom: 12%;
+  }
+  .podscontainer ul li #podscard h2{
+    line-height:3vh;
+    font-size:3vw;
+  
+  }
+  
+  #podscard p{
+    line-height:4vw;
+    font-size:3.2vw;
+    margin-bottom:30%;
+    height:540px;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .podscontainer ul li #podscard h1{
+    line-height:3vh;
+    font-size:3.5vw;
+    margin-bottom: 12%;
+  }
+  .podscontainer ul li #podscard h2{
+    line-height:3vh;
+    font-size:3vw;
+  
+  }
+  
+  #podscard p{
+    line-height:4vw;
+    font-size:3.2vw;
+    margin-bottom:20%;
+    height:440px;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .podscontainer ul li #podscard h1{
+    line-height:3vh;
+    font-size:3.2vw;
+    margin-bottom: 12%;
+  }
+  .podscontainer ul li #podscard h2{
+    line-height:3vh;
+    font-size:3vw;
+  
+  }
+  
+  #podscard p{
+    line-height:2vh;
+    font-size:3.2vw;
+    margin-bottom:10%;
+    height:265px;
+    text-align: left;
+  }
+}
+
 /*AIRPODS STYLING END*/
 
 
@@ -2336,18 +2400,19 @@ div .newscard img:hover{
   transform: scale(1.06);
   transition:1s;
 }
-
+.newsbody ul li .newscard p{
+  font-size:4vw;
+  line-height:5vh;
+}
 .newsbody ul li .newscard{
     float: left;
     width: 40%;
     margin-left: 7%;
-    height:auto;
-    line-height: 50px;
+    height:38vh;
     text-align: center;
     color:#202020;
-    font-size: 20px;
     box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.5);
-    border-radius: 20px;
+    border-radius:10%;
     margin-bottom:8%;
     overflow:hidden;
     text-overflow: ellipsis;
@@ -2355,7 +2420,8 @@ div .newscard img:hover{
 
 
 .newsbody ul li .newscard a{
-  font-size:1.5em;
+  font-size:3vw;
+  margin-top:15%;
   color: #5c677d;
 }
 
@@ -2416,16 +2482,17 @@ header{
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 1000px) {
-  .topnav.responsive {position: relative;}
+  .topnav.responsive {position: fixed;}
   .topnav.responsive a.icon {
-    position: absolute;
+    position: fixed;
     right: 0;
     top: 0;
     background-color: #000;
   }
   .topnav.responsive a {
     float: none;
-    display: block;
+   
+    display:block;
     text-align: left;
   }
 }
