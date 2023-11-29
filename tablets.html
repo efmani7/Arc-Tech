@@ -16,6 +16,9 @@
   <!-- tITLE-->
   <title>Arc Tech</title>
 <style media="screen">
+  body{
+    min-width: 350px;
+  }
 
 .maintablets{
   width: 90%;
@@ -33,15 +36,14 @@
   width:32%;
   height: auto;
   margin-left: 18%;
-  border-radius: 20px;
+  border-radius:15%;
 }
 
 .ipad img{
   width: 100%;
   height: auto;
   object-fit: cover;
-  border-radius: 20px;
-  box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.2);
+  border-radius:15%;
 }
 .Smallpic1{
   width:32%;
@@ -90,39 +92,44 @@
 
   .ipadspecs{
     width: 90%;
-    height: 25rem;
     margin-top:8%;
-    margin-left: 5%;
     margin-bottom:2%;
-    border-radius: 20px;
-    box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.3);
-
+    height:25vh;
   }
 
-  .ipadsubspecs{
-    width: 40%;
-    height: auto;
+  .subspecs{
+    width:100%;
+
+  }
+  #ispec1{
+    float: left;
+    margin-left:10%;
+    line-height:2.2vh;
+    font-size:3vw;
+  }
+
+  #ispec2{
     float: right;
-    margin-right: -5%;
-    font-size: 1vw; 
+    margin-right:10%;
+    line-height:2.2vh;
+    font-size:3vw;
   }
 
-  .ipadspecs .ipadsubspecs h1{
-    font-size: 1px; 
-    margin-left:-40%;
-    margin-right: 5%;
-    margin-bottom: -4%;
-    margin-top:5%;
-    line-height:1vw;
+  .ipadspecs .subspecs h1{
+    font-size: 2vw; 
+    
   }
-
-  .ipadspecs img{
-    width: 20%;
-    height: auto;
-    object-fit: cover;
+  .specsgif{
+    width:50%;
     margin-top:8%;
     margin-bottom:8%;
-    margin-left: 2%;
+    margin-left:25%;
+  }
+  .specsgif img{
+    width:60%;
+    height: auto;
+    object-fit: cover;
+    margin-left:20%;
   }
 
   .ipadspecs img:hover{
@@ -130,6 +137,16 @@
     transition: 1s;
   }
 
+  #stock{
+    font-size: 4vw;
+    width:50%;
+    margin-left:25%;
+  }
+  #stockcon{
+  width: 100%;
+  margin-top:10%;
+  text-align: center;
+}
   .Stabspecs .subspecs h1{
     font-size: 1em;
     margin-right:65%;
@@ -149,19 +166,15 @@ float: right;
 
 }
 
-.Stabspecs video{
-  width: 30vw;
-  height: auto;
+video{
+  width:100%;
   object-fit: cover;
   margin-top:22%;
   margin-bottom:22%;
+  margin-left: 12%;
 
 }
-.Stabspecs .subspecs{
-  margin-left: -18%;
-  margin-right: 3%;
 
-}
 
 .Stablet img{
   width: 100%;
@@ -221,6 +234,132 @@ float: right;
 h2{
   font-size:1.2vw;
 }
+
+
+@media screen and (max-width: 2500px) {
+  #ispec1{
+    float: left;
+    margin-left:10%;
+    line-height:10.2vh;
+    font-size:3vw;
+  }
+
+  #ispec2{
+    float: right;
+    margin-right:10%;
+    line-height:10.2vh;
+    font-size:3vw;
+  
+  }
+
+  .ipadspecs .subspecs h1{
+    font-size: 2vw; 
+    
+  }
+
+  #stock{
+    font-size: 3vw; 
+    line-height: 1vh;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  #ispec1{
+    float: left;
+    margin-left:10%;
+    line-height:6.2vh;
+    font-size:3vw;
+  }
+
+  #ispec2{
+    float: right;
+    margin-right:10%;
+    line-height:6.2vh;
+    font-size:3vw;
+  }
+
+  .ipadspecs .subspecs h1{
+    font-size: 2vw; 
+    
+  }
+
+  #stock{
+    font-size: 3vw; 
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #ispec1{
+    float: left;
+    margin-left:10%;
+    line-height:4.2vh;
+    font-size:3vw;
+  }
+
+  #ispec2{
+    float: right;
+    margin-right:10%;
+    line-height:4.2vh;
+    font-size:3vw;
+  
+  }
+
+  .ipadspecs .subspecs h1{
+    font-size: 2vw; 
+    
+  }
+
+  #stock{
+    font-size: 3vw; 
+    line-height: 1vh;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .Smallpic1{
+  width:40%;
+  margin-top: -48%;
+  margin-left: 55%;
+  border-radius:15%;
+
+}
+.Smallpic1 img{
+  width:90%;
+  object-fit: cover;
+  border-radius:15%;
+
+}
+
+.Smallpic2{
+  width:40%;
+  margin-top: -10.5%;
+  margin-left: 55%;
+  border-radius:15%;
+}
+.Smallpic2 img{
+  width: 90%;
+  object-fit: cover;
+  border-radius:15% ;
+}
+.ipad{
+  width:40%;
+  margin-left: 10%;
+  border-radius:15%;
+  box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.1);
+
+}
+
+.ipad img{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius:15%;
+}
+#stock{
+    font-size: 3vw; 
+  }
+}
+
   </style>
 </head>
 
@@ -288,9 +427,13 @@ h2{
    <img src="apple/ipads/ipadairback.jpg" alt="ipad air back">
  </div>
 
+ <div class="specsgif">
+ <img id src="apple/ipads/ipadanimation.gif" alt="ipad air gif">
+</div>
 <div class="ipadspecs">
+  
 <div class="subspecs">
-  <h1>
+  <h1 id="ispec1">
     Hardware
  <br>
     Apple M1 chip
@@ -309,9 +452,8 @@ h2{
     Li-Ion (28.6 Wh)
     <br><br>
   </h1>
-</div>
-<div class="subspecs">
-  <h1>
+
+  <h1 id="ispec2">
     Display: 10.9"
     <br>
     1640 x 2360 pixels pixels
@@ -329,13 +471,11 @@ h2{
     <br><br>
   </h1>
 </div>
-<img src="apple/ipads/ipadanimation.gif" alt="ipad air gif">
-<h2 style="text-align:center">10 Left</h2>
-
 </div>
   </div>
-
-
+  <div id="stockcon">
+  <h2 id="stock" style="text-align:center">10 Left</h2>
+</div>
 <div style="margin-top:12%" class="rectangle">
 
 </div>
@@ -360,56 +500,58 @@ h2{
     <img src="samsung/tabs/tab.png" alt="samsung tab">
 
 </div>
-<div class="Stabspecs">
-
-<div  class="subspecs">
-<h1 style="margin-right:15%">
-Hardware
-<br>
-Qualcomm Snapdragon 8 Gen 1
-<br>
-8GB RAM
-<br><br>
-
-Storage
-<br>
-128GB, microSDXC
-
-<br><br>
-Battery
-<br>
-10090 mAh
-
-
-</h1>
+<div class="ipadspecs">
+  <div class="specsgif">
+    <video style="margin-top:10%" src="samsung/tabs/TabS8_1440x450_PC.mp4" loop muted autoplay> </video>
+   </div>
+  
+     
+   <div class="subspecs">
+     <h1 id="ispec1">
+      Hardware
+      <br>
+      Qualcomm Snapdragon 8 Gen 1
+      <br>
+      8GB RAM
+      <br><br>
+      
+      Storage
+      <br>
+      128GB, microSDXC
+      
+      <br><br>
+      Battery
+      <br>
+      10090 mAh
+    
+     </h1>
+   
+     <h1 id="ispec2">
+      Display
+      <br>
+      12.4 inches
+      <br>
+      2800 x 1752 pixels
+      <br>
+      120Hz Refresh rate
+      <br><br>
+  
+      Camera
+      <br>
+      13 MP (Dual camera)
+      <br>
+      12 MP front
+     </h1>
+   </div>
+     </div>
+     
 </div>
-<div  class="subspecs">
-  <h1 style="margin-right:20%">
-    Display
-    <br>
-    12.4 inches
-    <br>
-    2800 x 1752 pixels
-    <br>
-    120Hz Refresh rate
-    <br><br>
+<br><br><br><br><br><br>
+<div id="stockcon">
+  <br><br><br>
+  <h2 id="stock" style="text-align:center">INSTOCK</h2>
+  </div>
 
-    Camera
-    <br>
-    13 MP (Dual camera)
-    <br>
-    12 MP front
-    <br><br>
-
-  </h1>
-</div>
-<div style="width:50%" class="vidwrapper">
-<video style="margin-top:10%" src="samsung/tabs/TabS8_1440x450_PC.mp4" loop muted autoplay> </video>
-</div>
-<h2 style="text-align:center">Instock</h2>
-</div>
-
-</div>
 <br><br><br><br><br><br><br><br><br><br><br><br>
 <script>
   function myFunction() {

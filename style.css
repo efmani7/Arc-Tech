@@ -340,6 +340,7 @@ div .defaultmain{
 .defaultmain ul li .productad a{
   font-size: 2vw;
   color: #5c677d;
+  margin:0;
 }
 
 
@@ -350,15 +351,99 @@ div .defaultmain{
 }
 
 .procadtxt {
-height: 100px;
+height:40px;
 }
 .procadtxt h1{
   font-size:3vw;
+  line-height:1em;
 }
 
 .procadtxt p{
   font-size:2vw;
+  line-height:1em;
+  margin: 0;
 }
+
+@media screen and (max-width: 2500px) {
+  .procadtxt {
+    height:100px;
+    }
+    .defaultmain ul li .productad a{
+      font-size:3vw;
+      color: #5c677d; 
+      margin-top:2%;
+    }
+    .defaultmain ul li .productad .procadtxt p{
+      font-size:3vw;
+      line-height:1em;
+     
+    }
+}
+
+@media screen and (max-width: 1500px) {
+  .procadtxt {
+    height:80px;
+    }
+    .defaultmain ul li .productad a{
+      font-size:3vw;
+      color: #5c677d; 
+      margin-top:2%;
+    }
+    .procadtxt h1{
+      font-size:4vw;
+      line-height:2.5vh;
+    }
+    .defaultmain ul li .productad .procadtxt p{
+      font-size:4vw;
+      line-height:2em;
+     
+    }
+}
+
+@media screen and (max-width: 800px) {
+  .procadtxt {
+    height:40px;
+    }
+    .defaultmain ul li .productad a{
+      font-size:4vw;
+      color: #5c677d; 
+      margin-top:2%;
+    }
+    .procadtxt h1{
+      font-size:4vw;
+      line-height:2.5vh;
+    }
+    .defaultmain ul li .productad .procadtxt p{
+      font-size:3.2vw;
+      line-height:3vh;
+     
+    }
+}
+
+@media screen and (max-width: 500px) {
+  .procadtxt {
+    height:30px;
+    }
+
+    .defaultmain ul li .productad a{
+      font-size:4vw;
+      color: #5c677d; 
+      margin-top:2%;
+    }
+    .defaultmain ul li .productad img{
+      margin-bottom:-25%;
+    }
+    .procadtxt h1{
+      font-size:4vw;
+      line-height:1.5vh;
+    }
+    .defaultmain ul li .productad .procadtxt p{
+      font-size:4vw;
+      line-height:1.5em;
+     
+    }
+}
+
 /**//* Default styles for product card */
 .productsbody ul li .productscard {
   background-color: #fff;
@@ -448,7 +533,9 @@ ul li .productscard:hover {
   .productsbody ul li .productscard .price p {
     font-size: 3vw;
   }
-
+  .productsbody ul li .productscard  a {
+    font-size:3vw;
+  }
   /* Add more responsive styles as needed */
 }
 
@@ -461,13 +548,41 @@ ul li .productscard:hover {
   .productsbody ul li .productscard h1 {
     font-size: 4vw;
     min-width:3vw;
+    line-height:1vh;
   }
 
   div .productscard p,
   .productsbody ul li .productscard .price p {
     font-size: 4vw;
+    line-height:1vh;
+  }
+  .productsbody ul li .productscard  a {
+    font-size:4vw;
+  }
+  /* Add more responsive styles as needed */
+}
+
+@media screen and (max-width: 500px) {
+  .productsbody ul li .productscard {
+    width: 40%;
+    margin-left: 5%;
+    
   }
 
+  .productsbody ul li .productscard h1 {
+    font-size: 4vw;
+    min-width:3vw;
+    line-height:1vh;
+  }
+
+  div .productscard p,
+  .productsbody ul li .productscard .price p {
+    font-size: 4vw;
+    line-height:1vh;
+  }
+  .productsbody ul li .productscard  a {
+    font-size:4vw;
+  }
   /* Add more responsive styles as needed */
 }
 
@@ -2135,11 +2250,9 @@ div .podscontainer{
     float: left;
     width: 25%;
     height:auto;
-    line-height: 50px;
     text-align: center;
     color:#202020;
-    font-size: 20px;
-    border-radius: 20px;
+    border-radius:5%;
     overflow:hidden;
     text-overflow: ellipsis;
     margin-bottom: 15%;
@@ -2150,21 +2263,25 @@ div .podscard img{
   width: 80%;
   height: auto;
   object-fit: cover;
-  border-top-left-radius: 20px ;
-  border-top-right-radius: 20px;
+  border-top-left-radius: 10%;
+  border-top-right-radius:10%;
 }
 
 
 .podscontainer ul li .podscard h1{
-  line-height:1;
-  font-size: 1.8em;
+  line-height:3vh;
+  font-size:2vw;
   margin-bottom: 12%;
+}
+.podscontainer ul li .podscard h2{
+  line-height:3vh;
+  font-size:2vw;
+  
 }
 
 .podscard p{
-  line-height:1;
-  font-size: 16px;
-  text-align:justify;
+  line-height:3vh;
+  font-size:2vw;
   margin-bottom: 4%;
 }
 
