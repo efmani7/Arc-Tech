@@ -929,19 +929,198 @@ div .camtext {
   width: 100%;
   height: auto;
 }
-@media screen and (max-width: 2500px) {
- 
-}
 
-@media screen and (max-width: 1500px) {
+
+
+@media screen and (max-width: 1200px) {
+  .ihead h1{
+    font-size: 7vw;
+      }
+      .bodyforphones .itabtopl .itabtopltext h1{
+    font-size:3vw;  
+    
+    }
+    .bodyforphones .itabtopl .itabtopltext{
+      margin-top:5%;
+      margin-left:2%;
+    }
+    
+    .bodyforphones .itabtopl{
+      border-radius:10%;
+      width:35%;
+      margin-top:5%;
+      margin-right:5%;
+    }
+    .bodyforphones .itabtopl img{
+      width:60%;
+    }
+    .bodyforphones .itabtopr .itabtoprtext h1{
+      font-size:3vw;  
+      
+      }
+    .bodyforphones .itabtopr {
+      border-radius:10%;
+      width:28%;
+      margin-right:5%;
+      margin-top:2%;
+    
+    }
+    .bodyforphones .itabtopr .itabtoprtext{
+      margin-top:5%;
+      margin-left:2%;
+      margin-right: 0;
+    }
+    .bodyforphones .itabtopr img{
+      width:20%;
+     
+    }
+    
+    .bodyforphones .itabbottoml{
+      margin-top:5%;
+      margin-left:4%;
+      width:60%;
+      border-radius:20px;
+    }
+    .bodyforphones .itabbottoml img{
+      border-radius:20px;
+    }
+    
+    .bodyforphones .itabbottomr{
+      width:60%;
+      margin-top: 5%;
+      margin-bottom:5%;
+      margin-left:20%;
+    }
+    .bodyforphones .itabbottomr h1{
+    font-size:4vw;
+    text-align: left;
+    }
+    
+    .bodyforphones .specs13{
+      margin-top:105%;
+      height: 90%;
+      margin-bottom:15%;
+      word-wrap: break-word;/* This property allows long words to be broken and wrap onto the next line */
+    }
+    
+    .bodyforphones .specs13 .subspecs h1{
+      font-size:2.2vw ;
+      line-height:2.4vw;
+    }
+    .mainpics .adful{
+      background-color:#fff;
+    }
+    
+    .mainpics .adful figcaption{
+      margin-top:5%;
+      font-size: 2vw;
+      text-align: center;
+      margin-left:-65%;
+    }
+    
+    
+    .bodyforphones .btngroup {
+      float: left;
+      margin-left:13%;
+      margin-top:2%;
+      margin-right: 2%;
+      width: 40px;
+    }
+    
+    .btngroup #buttongreen {
+      width: 40px;
+      height: 40px;
+      margin-bottom:20%;
+    }
+    
+    .btngroup #buttonblue {
+      width: 40px;
+      height: 40px;
+      margin-bottom:20%;
+    }
+    
+    .btngroup #buttonred {
+      width: 40px;
+      height: 40px;
+      margin-bottom:20%;
+    }
+    
+    .btngroup #buttonpink {
+      width: 40px;
+      height: 40px;
+      margin-bottom:20%;
+    }
+    
+    
+    .btngroup #buttonwhite {
+      width: 40px;
+      height: 40px;
+      margin-bottom:20%;
+    }
+    
+    
+    .btngroup #buttonblack {
+       width: 40px;
+      height: 40px;
+      margin-bottom:20%;
+    }
+    
+    /*13 PRO MEDIA SCREEN*/
+    .bodyforphones .itabtopl{
+      width:35%;
+    }
   
-}
-
-@media screen and (max-width: 800px) {
-
+    #topleftpro{
+      width:80%;
+      margin-right:-10%;
+      float:right;
+      margin-top:-65%;
+    }
+    .bodyforphones .btngroup {
+      float: left;
+      margin-left:13%;
+      margin-top:2%;
+      margin-right: 2%;
+      width: 30px;
+    }
+    
+    .btngroup #buttongreenpro {
+      width: 30px;
+      height: 30px;
+      margin-bottom:15%;
+    }
+    
+    .btngroup #buttonbluepro {
+      width: 30px;
+      height: 30px;
+      margin-bottom:15%;
+    }
+    
+    .btngroup #buttonwhitepro {
+      width: 30px;
+      height: 30px;
+      margin-bottom:15%;
+    }
+    
+    .btngroup #buttongoldpro {
+      width: 30px;
+      height: 30px;
+      margin-bottom:15%;
+    }
+    
+    
+    .btngroup #buttonblackpro {
+      width: 30px;
+      height: 30px;
+      margin-bottom:15%;
+    }
+    
 }
 
 @media screen and (max-width: 500px) {
+  .ihead h1{
+font-size: 7vw;
+  }
   .bodyforphones .itabtopl .itabtopltext h1{
 font-size:3vw;  
 
@@ -966,8 +1145,8 @@ font-size:3vw;
   }
 .bodyforphones .itabtopr {
   border-radius:10%;
-  width:24%;
-  margin-top:6%;
+  width:28%;
+  margin-right:5%;
 
 }
 .bodyforphones .itabtopr .itabtoprtext{
@@ -982,11 +1161,50 @@ font-size:3vw;
 
 .bodyforphones .itabbottoml{
   margin-top:5%;
-  
+  margin-left:2%;
+  width:70%;
+  border-radius:20px;
 }
-.btngroup {
+.bodyforphones .itabbottoml img{
+  border-radius:20px;
+}
+
+.bodyforphones .itabbottomr{
+  width:70%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.bodyforphones .itabbottomr h1{
+font-size:4vw;
+text-align: left;
+}
+
+.bodyforphones .specs13{
+  margin-top:95%;
+  height: 90%;
+  margin-bottom:15%;
+  word-wrap: break-word;/* This property allows long words to be broken and wrap onto the next line */
+}
+
+.bodyforphones .specs13 .subspecs h1{
+  font-size:2.2vw ;
+  line-height:2.4vw;
+}
+.mainpics .adful{
+  background-color:#fff;
+}
+
+.mainpics .adful figcaption{
+  margin-top:5%;
+  font-size: 2vw;
+  text-align: center;
+  margin-left:-65%;
+}
+
+
+.bodyforphones .btngroup {
   float: left;
-  margin-left: 13%;
+  margin-left:13%;
   margin-top:2%;
   margin-right: 2%;
   width: 30px;
@@ -1026,6 +1244,47 @@ font-size:3vw;
 
 .btngroup #buttonblack {
    width: 30px;
+  height: 30px;
+  margin-bottom:15%;
+}
+
+/*13 PRO MEDIA SCREEN*/
+
+.bodyforphones .btngroup {
+  float: left;
+  margin-left:13%;
+  margin-top:2%;
+  margin-right: 2%;
+  width: 30px;
+}
+
+.btngroup #buttongreenpro {
+  width: 30px;
+  height: 30px;
+  margin-bottom:15%;
+}
+
+.btngroup #buttonbluepro {
+  width: 30px;
+  height: 30px;
+  margin-bottom:15%;
+}
+
+.btngroup #buttonwhitepro {
+  width: 30px;
+  height: 30px;
+  margin-bottom:15%;
+}
+
+.btngroup #buttongoldpro {
+  width: 30px;
+  height: 30px;
+  margin-bottom:15%;
+}
+
+
+.btngroup #buttonblackpro {
+  width: 30px;
   height: 30px;
   margin-bottom:15%;
 }
@@ -1292,7 +1551,354 @@ div .camtext {
 
 /*END OF iPHONE PAGE STYLING*/
 
+/* START OF SAMSUNG PHONES MEDIA STYLING*/
 
+@media screen and (max-width: 1200px) {
+  .ihead h1{
+    font-size: 7vw;
+      }
+      .bodyforphones .itabtopls22 .itabtopltexts22 h1{
+    font-size:3vw;  
+    
+    }
+    .bodyforphones .itabtopls22 .itabtopltexts22{
+      margin-top:5%;
+      margin-left:2%;
+    }
+    
+    .bodyforphones .itabtopls22{
+      border-radius:10%;
+      width:35%;
+      margin-top:5%;
+      margin-right:5%;
+    }
+    .bodyforphones .itabtopls22img{
+      width:60%;
+    }
+    .bodyforphones .itabtoprs22 .itabtoprtexts22 h1{
+      font-size:3vw;  
+      
+      }
+    .bodyforphones .itabtoprs22 {
+      border-radius:10%;
+      width:28%;
+      margin-right:5%;
+      margin-top:2%;
+    
+    }
+    .bodyforphones .itabtoprs22 .itabtoprtexts22{
+      margin-top:5%;
+      margin-left:2%;
+      margin-right: 0;
+    }
+    .bodyforphones .itabtoprs22 img{
+      width:20%;
+     
+    }
+    
+    .bodyforphones .itabbottomls22{
+      margin-top:5%;
+      margin-left:4%;
+      width:60%;
+      border-radius:20px;
+    }
+    .bodyforphones .itabbottomls22 img{
+      border-radius:20px;
+    }
+    
+    .bodyforphones .itabbottomrs22{
+      width:60%;
+      margin-top: 5%;
+      margin-bottom:5%;
+      margin-left:20%;
+    }
+    .bodyforphones .itabbottomrs22 h1{
+    font-size:4vw;
+    text-align: left;
+    }
+    
+    .bodyforphones .specss22{
+      margin-top:105%;
+      height: 90%;
+      margin-bottom:15%;
+      word-wrap: break-word;/* This property allows long words to be broken and wrap onto the next line */
+    }
+    
+    .bodyforphones .specsS22 .subspecsSAM h1{
+      font-size:2.2vw ;
+      line-height:2.4vw;
+    }
+    .mainpics .adful{
+      background-color:#fff;
+    }
+    
+    .mainpics .adful figcaption{
+      margin-top:5%;
+      font-size: 2vw;
+      text-align: center;
+      margin-left:-65%;
+    }
+    
+    
+    .bodyforphones .btngroup {
+      float: left;
+      margin-left:13%;
+      margin-top:2%;
+      margin-right: 2%;
+      width: 40px;
+    }
+    
+    .btngroup #buttonblacks22 {
+      width: 40px;
+      height: 40px;
+      margin-bottom:20%;
+    }
+    
+    .btngroup #buttongreens22 {
+      width: 40px;
+      height: 40px;
+      margin-bottom:20%;
+    }
+    
+    .btngroup #buttonwhites22 {
+      width: 40px;
+      height: 40px;
+      margin-bottom:20%;
+    }
+    
+    .btngroup #buttonpinks22 {
+      width: 40px;
+      height: 40px;
+      margin-bottom:20%;
+    }
+    
+    
+    
+    /*13 PRO MEDIA SCREEN*/
+    .bodyforphones .itabtopl{
+      width:35%;
+    }
+  
+    #topleftpro{
+      width:80%;
+      margin-right:-10%;
+      float:right;
+      margin-top:-65%;
+    }
+    .bodyforphones .btngroup {
+      float: left;
+      margin-left:13%;
+      margin-top:2%;
+      margin-right: 2%;
+      width: 30px;
+    }
+    
+    .btngroup #buttongreenpro {
+      width: 30px;
+      height: 30px;
+      margin-bottom:15%;
+    }
+    
+    .btngroup #buttonbluepro {
+      width: 30px;
+      height: 30px;
+      margin-bottom:15%;
+    }
+    
+    .btngroup #buttonwhitepro {
+      width: 30px;
+      height: 30px;
+      margin-bottom:15%;
+    }
+    
+    .btngroup #buttongoldpro {
+      width: 30px;
+      height: 30px;
+      margin-bottom:15%;
+    }
+    
+    
+    .btngroup #buttonblackpro {
+      width: 30px;
+      height: 30px;
+      margin-bottom:15%;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+  .ihead h1{
+font-size: 7vw;
+  }
+  .bodyforphones .itabtopl .itabtopltext h1{
+font-size:3vw;  
+
+}
+.bodyforphones .itabtopl .itabtopltext{
+  margin-top:5%;
+  margin-left:2%;
+}
+
+.bodyforphones .itabtopl{
+  border-radius:10%;
+  width:35%;
+  margin-top:5%;
+  margin-right:5%;
+}
+.bodyforphones .itabtopl img{
+  width:60%;
+}
+.bodyforphones .itabtopr .itabtoprtext h1{
+  font-size:3vw;  
+  
+  }
+.bodyforphones .itabtopr {
+  border-radius:10%;
+  width:28%;
+  margin-right:5%;
+
+}
+.bodyforphones .itabtopr .itabtoprtext{
+  margin-top:5%;
+  margin-left:2%;
+  margin-right: 0;
+}
+.bodyforphones .itabtopr img{
+  width:20%;
+ 
+}
+
+.bodyforphones .itabbottoml{
+  margin-top:5%;
+  margin-left:2%;
+  width:70%;
+  border-radius:20px;
+}
+.bodyforphones .itabbottoml img{
+  border-radius:20px;
+}
+
+.bodyforphones .itabbottomr{
+  width:70%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.bodyforphones .itabbottomr h1{
+font-size:4vw;
+text-align: left;
+}
+
+.bodyforphones .specs13{
+  margin-top:95%;
+  height: 90%;
+  margin-bottom:15%;
+  word-wrap: break-word;/* This property allows long words to be broken and wrap onto the next line */
+}
+
+.bodyforphones .specs13 .subspecs h1{
+  font-size:2.2vw ;
+  line-height:2.4vw;
+}
+.mainpics .adful{
+  background-color:#fff;
+}
+
+.mainpics .adful figcaption{
+  margin-top:5%;
+  font-size: 2vw;
+  text-align: center;
+  margin-left:-65%;
+}
+
+
+.bodyforphones .btngroup {
+  float: left;
+  margin-left:13%;
+  margin-top:2%;
+  margin-right: 2%;
+  width: 30px;
+}
+
+.btngroup #buttongreen {
+  width: 30px;
+  height: 30px;
+  margin-bottom:15%;
+}
+
+.btngroup #buttonblue {
+  width: 30px;
+  height: 30px;
+  margin-bottom:15%;
+}
+
+.btngroup #buttonred {
+  width: 30px;
+  height: 30px;
+  margin-bottom:15%;
+}
+
+.btngroup #buttonpink {
+  width: 30px;
+  height: 30px;
+  margin-bottom:15%;
+}
+
+
+.btngroup #buttonwhite {
+  width: 30px;
+  height: 30px;
+  margin-bottom:15%;
+}
+
+
+.btngroup #buttonblack {
+   width: 30px;
+  height: 30px;
+  margin-bottom:15%;
+}
+
+/*13 PRO MEDIA SCREEN*/
+
+.bodyforphones .btngroup {
+  float: left;
+  margin-left:13%;
+  margin-top:2%;
+  margin-right: 2%;
+  width: 30px;
+}
+
+.btngroup #buttongreenpro {
+  width: 30px;
+  height: 30px;
+  margin-bottom:15%;
+}
+
+.btngroup #buttonbluepro {
+  width: 30px;
+  height: 30px;
+  margin-bottom:15%;
+}
+
+.btngroup #buttonwhitepro {
+  width: 30px;
+  height: 30px;
+  margin-bottom:15%;
+}
+
+.btngroup #buttongoldpro {
+  width: 30px;
+  height: 30px;
+  margin-bottom:15%;
+}
+
+
+.btngroup #buttonblackpro {
+  width: 30px;
+  height: 30px;
+  margin-bottom:15%;
+}
+
+}
 
 /* START OF SAMSUNG PHONES STYLING*/
 

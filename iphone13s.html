@@ -46,49 +46,85 @@
     .textover figcaption b:hover {
       cursor: pointer;
     }
+
+    @media screen and (max-width: 500px) {
+    .bodyforphones .btngroup {
+  float: left;
+  margin-left:13%;
+  margin-top:2%;
+  margin-right: 2%;
+  width: 30px;
+}
+
+.btngroup #buttongreenpro {
+  width: 30px;
+  height: 30px;
+  margin-bottom:15%;
+}
+
+.btngroup #buttonbluepro {
+  width: 30px;
+  height: 30px;
+  margin-bottom:15%;
+}
+
+.btngroup #buttonwhitepro {
+  width: 30px;
+  height: 30px;
+  margin-bottom:15%;
+}
+
+.btngroup #buttongoldpro {
+  width: 30px;
+  height: 30px;
+  margin-bottom:15%;
+}
+
+
+.btngroup #buttonblackpro {
+  width: 30px;
+  height: 30px;
+  margin-bottom:15%;
+}
+    }
   </style>
 </head>
 
 <body>
-  <!--nav bar-->
-  
- <div class="topnav" id="myTopnav">
-  <a href="index.html">Home</a></li>
- <a href="products.html"> Products</a>
- <a >
- <select name="Phones" id="navoption" onchange="navigate(this)">
-  <option  style="display: none;" value="default"> Phones</option>
-  <option value="iphone13s.html"><a> iPhones</a></option>
-  <option value="samsung.html"><a> Samsung</a></option>
- </select> 
-</a>
-<a >
- <select name="Watches" id="navoption" onchange="navigate(this)">
-  <option  style="display: none;" value="default">Smart Watches</option>
-  <option value="applewatches.html"><a > Apple Watches</a></option>
-  <option value="galaxywatches.html"><a> Galaxy Watches</a> </option>
- </select> 
-</a>
-<a >
- <select name="Accessories" id="navoption" onchange="navigate(this)">
-  <option  style="display: none;" value="default"> Accessories</option>
-  <option value="airpods.html"><a > Air Pods</a></option>
-  <option value="accessories.html"><a > Chargers</a> </option>
- </select> 
-</a>
- <a href="tablets.html"> Tablets</a>
- <a href="news.html">News</a>
- <a href="contact.html">Contact</a>
- <a class="user" href="#"> Login</a>
-<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-  <i class="fa fa-bars"></i>
-</a>
-</div>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
+    <!--nav bar-->
+
+    <div class="topnav" id="myTopnav">
+      <a href="index.html">Home</a></li>
+     <a href="products.html"> Products</a>
+     <a >
+     <select name="Phones" id="navoption" onchange="navigate(this)">
+      <option  style="display: none;" value="default"> Phones</option>
+      <option value="iphone13s.html"><a> iPhones</a></option>
+      <option value="samsung.html"><a> Samsung</a></option>
+     </select> 
+    </a>
+    <a >
+     <select name="Watches" id="navoption" onchange="navigate(this)">
+      <option  style="display: none;" value="default">Smart Watches</option>
+      <option value="applewatches.html"><a > Apple Watches</a></option>
+      <option value="galaxywatches.html"><a> Galaxy Watches</a> </option>
+     </select> 
+    </a>
+  <a >
+     <select name="Accessories" id="navoption" onchange="navigate(this)">
+      <option  style="display: none;" value="default"> Accessories</option>
+      <option value="airpods.html"><a > Air Pods</a></option>
+      <option value="accessories.html"><a > Chargers</a> </option>
+     </select> 
+    </a>
+     <a href="tablets.html"> Tablets</a>
+     <a href="news.html">News</a>
+     <a href="contact.html">Contact</a>
+     <a class="user" href="#"> Login</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
   <br>
   <br>
   <br>
@@ -139,7 +175,7 @@
 
   <div class="bodyforphones">
     <div class="itabbottoml">
-      <img src="apple/phones/water.png" alt="iphone 13 water reistant display">
+      <img id="water" src="apple/phones/water.png" alt="iphone 13 water reistant display">
     </div>
     <div class="itabbottomr">
       <div class="camtext">
@@ -274,7 +310,7 @@
   <br>
   <br>
   <!--SECTION 2 iPHONE 13pro-->
-  <div class="">
+  <div class="bodyforphones">
     <h1 style="color:#fbfbfd" id="13proseries"> 13pro </h1>
 
   </div>
@@ -294,39 +330,35 @@
   </div>
 
   <div class="bodyforphones">
-    <div class="itabtoplpro">
-      <div class="itabtoplprotxt">
+    <div class="itabtopl">
+      <div class="itabtopltext">
         <h1>Beatiful</h1>
         <br>
         <h1>New</h1>
         <br>
         <h1>Finishes</h1>
       </div>
-      <img style="width:100%" id="topleftpro" src="apple/phones/13progreen.png" alt="iphone 13 green pro display">
+      <img id="topleftpro" src="apple/phones/13progreen.png" alt="iphone 13 green pro display">
     </div>
-
-    <div style="background-color:#fff" class="itabtoprpro">
-      <div class="itabtoprprotxt">
+<br>
+    <div class="itabtopr">
+      <div class="itabtoprtext">
         <h1>Durable</h1>
-        <br>
-        <h1>Grade-S</h1>
         <br>
         <h1>Stainless</h1>
         <br>
         <h1>Steel</h1>
       </div>
       <img id="toprightpro" src="apple/phones/13progreentopright.png" alt="iphone 13 pro side view">
-      <div class="toprendimg">
-        <img src="apple/phones/procam.gif" alt="iphone 13 pro camera and word gif">
-      </div>
     </div>
+
   </div>
 
   <div class="bodyforphones">
-    <div class="itabbottomlpro">
-      <img src="apple/phones/water.png" alt="iphone 13 pro water reistant">
+    <div class="itabbottoml">
+      <img src="apple/phones/water.png" alt="iphone 13 water reistant display">
     </div>
-    <div class="itabbottomrpro">
+    <div class="itabbottomr">
       <div class="camtext">
         <h1>New Ultra Wide camera reveals more detail in the dark areas of your photos
           New Wide camera captures 47% more light for better photos and videos</h1>
@@ -341,11 +373,9 @@
   </div>
 
   <div class="bodyforphones">
-    <div class="specs13pro">
+    <div class="specs13">
       <div class="subspecs">
-
-        <h1>
-          iphone 13 pro pecs
+        <h1> iphone 13 pro pecs
           <br>
           <br>
           Display: 6.1"
@@ -386,8 +416,8 @@
       </div>
       <div class="subspecs">
 
-        <h1>
-          iphone 13promax specs
+
+        <h1>  iphone 13promax specs
           <br>
           <br>
           Display: 6.7"
@@ -424,9 +454,7 @@
           OS:
           <br>
           ios 15.x
-
         </h1>
-
       </div>
       <img src="apple/phones/appsanimation.gif" alt="iphone 13 pro gif">
     </div>
@@ -452,7 +480,23 @@
 
   <br>
   <script src="iphones.js"></script>
-
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    
+    function navigate(selectElement) {
+      var selectedOption = selectElement.value;
+      if (selectedOption !== 'default') {
+        window.location.href = selectedOption;
+      }
+    }
+    </script>
 </body>
 
 </html>
